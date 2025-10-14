@@ -1,5 +1,9 @@
 # Aide à la conversion entre CNIG et NeTEx
 
+!!! warning "Attention"
+
+    Cette documentation est un brouillon temporaire non officiel.
+
 L'objectif de cette documentation est de fournir des règles de conversion entre les données au format du standard CNIG Accessibilité et les données au format NeTEx profil France (principalement Accessibilité).
 
 !!! question "CNIG ? "
