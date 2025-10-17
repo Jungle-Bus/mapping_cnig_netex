@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://jungle-bus.github.io/mapping_cnig_netex/</loc>
+         <lastmod>2025-10-17</lastmod>
+    </url>
+    <url>
+         <loc>https://jungle-bus.github.io/mapping_cnig_netex/changelog/</loc>
+         <lastmod>2025-10-17</lastmod>
+    </url>
+    <url>
+         <loc>https://jungle-bus.github.io/mapping_cnig_netex/CNIG_vers_NeTEx/</loc>
+         <lastmod>2025-10-17</lastmod>
+    </url>
+    <url>
+         <loc>https://jungle-bus.github.io/mapping_cnig_netex/CNIG_vers_NeTEx/accessibility/</loc>
+         <lastmod>2025-10-17</lastmod>
+    </url>
+    <url>
+         <loc>https://jungle-bus.github.io/mapping_cnig_netex/CNIG_vers_NeTEx/parking/</loc>
+         <lastmod>2025-10-17</lastmod>
+    </url>
+    <url>
+         <loc>https://jungle-bus.github.io/mapping_cnig_netex/CNIG_vers_NeTEx/poi/</loc>
+         <lastmod>2025-10-17</lastmod>
+    </url>
+    <url>
+         <loc>https://jungle-bus.github.io/mapping_cnig_netex/CNIG_vers_NeTEx/stop/</loc>
+         <lastmod>2025-10-17</lastmod>
+    </url>
+    <url>
+         <loc>https://jungle-bus.github.io/mapping_cnig_netex/NeTEx_vers_CNIG/</loc>
+         <lastmod>2025-10-17</lastmod>
+    </url>
+</urlset>

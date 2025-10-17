@@ -1,0 +1,3677 @@
+
+<!doctype html>
+<html lang="fr" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="nlehuby (Jungle Bus)">
+      
+      
+        <link rel="canonical" href="https://jungle-bus.github.io/mapping_cnig_netex/CNIG_vers_NeTEx/accessibility/">
+      
+      
+        <link rel="prev" href="../">
+      
+      
+        <link rel="next" href="../parking/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.21">
+    
+    
+      
+        <title>Fichier accessibility.xml - Mapping CNIG NeTEx</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.2a3383ac.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        
+        <link rel="stylesheet" href="../../assets/external/fonts.googleapis.com/css.49ea35f2.css">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="amber">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#fichier-accessibilityxml" class="md-skip">
+          Aller au contenu
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="En-tête">
+    <a href="../.." title="Mapping CNIG NeTEx" class="md-header__button md-logo" aria-label="Mapping CNIG NeTEx" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Mapping CNIG NeTEx
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Fichier accessibility.xml
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Rechercher" placeholder="Rechercher" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Recherche">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Effacer" aria-label="Effacer" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initialisation de la recherche
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Jungle-Bus/mapping_cnig_netex" title="Aller au dépôt" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    mapping_cnig_netex
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Mapping CNIG NeTEx" class="md-nav__button md-logo" aria-label="Mapping CNIG NeTEx" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Mapping CNIG NeTEx
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Jungle-Bus/mapping_cnig_netex" title="Aller au dépôt" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    mapping_cnig_netex
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Aide à la conversion entre CNIG et NeTEx
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../changelog/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Suivi des modifications
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    CNIG vers NeTEx
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            CNIG vers NeTEx
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Fichier accessibility.xml
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Fichier accessibility.xml
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#navigationpath" class="md-nav__link">
+    <span class="md-ellipsis">
+      NavigationPath
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="NavigationPath">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#navigationpathpathlinkinsequence" class="md-nav__link">
+    <span class="md-ellipsis">
+      NavigationPath/PathLinkInSequence
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sitepathlink" class="md-nav__link">
+    <span class="md-ellipsis">
+      SitePathLink
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="SitePathLink">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sitepathlinkdistance" class="md-nav__link">
+    <span class="md-ellipsis">
+      SitePathLink/Distance
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sitepathlinkgmllinestring" class="md-nav__link">
+    <span class="md-ellipsis">
+      SitePathLink/gml:LineString
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sitepathlinkfrom" class="md-nav__link">
+    <span class="md-ellipsis">
+      SitePathLink/From
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sitepathlinkto" class="md-nav__link">
+    <span class="md-ellipsis">
+      SitePathLink/To
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sitepathlinkaccessibilityassessment" class="md-nav__link">
+    <span class="md-ellipsis">
+      SitePathLink/AccessibilityAssessment
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="SitePathLink/AccessibilityAssessment">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#wheelchairaccess" class="md-nav__link">
+    <span class="md-ellipsis">
+      WheelchairAccess
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stepfreeaccess" class="md-nav__link">
+    <span class="md-ellipsis">
+      StepFreeAccess
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#escalatorfreeaccess" class="md-nav__link">
+    <span class="md-ellipsis">
+      EscalatorFreeAccess
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#liftfreeaccess" class="md-nav__link">
+    <span class="md-ellipsis">
+      LiftFreeAccess
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visualsignsavailable" class="md-nav__link">
+    <span class="md-ellipsis">
+      VisualSignsAvailable
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#audiblesignalsavailable" class="md-nav__link">
+    <span class="md-ellipsis">
+      AudibleSignalsAvailable
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tactileguidanceavailable" class="md-nav__link">
+    <span class="md-ellipsis">
+      TactileGuidanceAvailable
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sitepathlinkpublicuse" class="md-nav__link">
+    <span class="md-ellipsis">
+      SitePathLink/PublicUse
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sitepathlinkcovered" class="md-nav__link">
+    <span class="md-ellipsis">
+      SitePathLink/Covered
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sitepathlinklighting" class="md-nav__link">
+    <span class="md-ellipsis">
+      SitePathLink/Lighting
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sitepathlinkallareaswheelchairaccessible" class="md-nav__link">
+    <span class="md-ellipsis">
+      SitePathLink/AllAreasWheelchairAccessible
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sitepathlinknumberofsteps" class="md-nav__link">
+    <span class="md-ellipsis">
+      SitePathLink/NumberOfSteps
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sitepathlinkminimumwidth" class="md-nav__link">
+    <span class="md-ellipsis">
+      SitePathLink/MinimumWidth
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sitepathlinkalloweduse" class="md-nav__link">
+    <span class="md-ellipsis">
+      SitePathLink/AllowedUse
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sitepathlinktransition" class="md-nav__link">
+    <span class="md-ellipsis">
+      SitePathLink/Transition
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sitepathlinkgradient" class="md-nav__link">
+    <span class="md-ellipsis">
+      SitePathLink/Gradient
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sitepathlinkgradienttype" class="md-nav__link">
+    <span class="md-ellipsis">
+      SitePathLink/GradientType
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sitepathlinktiltangle" class="md-nav__link">
+    <span class="md-ellipsis">
+      SitePathLink/TiltAngle
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sitepathlinktilttype" class="md-nav__link">
+    <span class="md-ellipsis">
+      SitePathLink/TiltType
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sitepathlinkaccessfeaturetype" class="md-nav__link">
+    <span class="md-ellipsis">
+      SitePathLink/AccessFeatureType
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sitepathlinkpassagetype" class="md-nav__link">
+    <span class="md-ellipsis">
+      SitePathLink/PassageType
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sitepathlinkflooringtype" class="md-nav__link">
+    <span class="md-ellipsis">
+      SitePathLink/FlooringType
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sitepathlinktactilewarningstrip" class="md-nav__link">
+    <span class="md-ellipsis">
+      SitePathLink/TactileWarningStrip
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sitepathlinktactileguidingstrip" class="md-nav__link">
+    <span class="md-ellipsis">
+      SitePathLink/TactileGuidingStrip
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sitepathlinkequipmentplaces" class="md-nav__link">
+    <span class="md-ellipsis">
+      SitePathLink/equipmentPlaces
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sitepathlinkplaceequipments" class="md-nav__link">
+    <span class="md-ellipsis">
+      SitePathLink/placeEquipments
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#crossingequipment" class="md-nav__link">
+    <span class="md-ellipsis">
+      CrossingEquipment
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CrossingEquipment">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#crossingequipmentzebracrossing" class="md-nav__link">
+    <span class="md-ellipsis">
+      CrossingEquipment/ZebraCrossing
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#crossingequipmentpedestrianlights" class="md-nav__link">
+    <span class="md-ellipsis">
+      CrossingEquipment/PedestrianLights
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#crossingequipmentacousticcrossingaids" class="md-nav__link">
+    <span class="md-ellipsis">
+      CrossingEquipment/AcousticCrossingAids
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#crossingequipmenttactilewarningstrip" class="md-nav__link">
+    <span class="md-ellipsis">
+      CrossingEquipment/TactileWarningStrip
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#crossingequipmentdroppedkerb" class="md-nav__link">
+    <span class="md-ellipsis">
+      CrossingEquipment/DroppedKerb
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#crossingequipmentmarkingstatus" class="md-nav__link">
+    <span class="md-ellipsis">
+      CrossingEquipment/MarkingStatus
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#crossingequipmentbumpcrossing" class="md-nav__link">
+    <span class="md-ellipsis">
+      CrossingEquipment/BumpCrossing
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#crossingequipmentvisualobstacle" class="md-nav__link">
+    <span class="md-ellipsis">
+      CrossingEquipment/VisualObstacle
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rampequipment" class="md-nav__link">
+    <span class="md-ellipsis">
+      RampEquipment
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="RampEquipment">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rampequipmentwidth" class="md-nav__link">
+    <span class="md-ellipsis">
+      RampEquipment/Width
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rampequipmentmaximumload" class="md-nav__link">
+    <span class="md-ellipsis">
+      RampEquipment/MaximumLoad
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rampequipmentgradient" class="md-nav__link">
+    <span class="md-ellipsis">
+      RampEquipment/Gradient
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rampequipmentgradienttype" class="md-nav__link">
+    <span class="md-ellipsis">
+      RampEquipment/GradientType
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rampequipmenthandrailtype" class="md-nav__link">
+    <span class="md-ellipsis">
+      RampEquipment/HandrailType
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rampequipmenttemporary" class="md-nav__link">
+    <span class="md-ellipsis">
+      RampEquipment/Temporary
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rampequipmentreststopdistance" class="md-nav__link">
+    <span class="md-ellipsis">
+      RampEquipment/RestStopDistance
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rampequipmentsafetyedge" class="md-nav__link">
+    <span class="md-ellipsis">
+      RampEquipment/SafetyEdge
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rampequipmentturningspace" class="md-nav__link">
+    <span class="md-ellipsis">
+      RampEquipment/TurningSpace
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#escalatorequipment" class="md-nav__link">
+    <span class="md-ellipsis">
+      EscalatorEquipment
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="EscalatorEquipment">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#escalatorequipmentwidth" class="md-nav__link">
+    <span class="md-ellipsis">
+      EscalatorEquipment/Width
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#escalatorequipmentdirectionofuse" class="md-nav__link">
+    <span class="md-ellipsis">
+      EscalatorEquipment/DirectionOfUse
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#escalatorequipmenttactileactuators" class="md-nav__link">
+    <span class="md-ellipsis">
+      EscalatorEquipment/TactileActuators
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#escalatorequipmentmonitoringremotecontrol" class="md-nav__link">
+    <span class="md-ellipsis">
+      EscalatorEquipment/MonitoringRemoteControl
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#travelatorequipment" class="md-nav__link">
+    <span class="md-ellipsis">
+      TravelatorEquipment
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="TravelatorEquipment">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#travelatorequipmentwidth" class="md-nav__link">
+    <span class="md-ellipsis">
+      TravelatorEquipment/Width
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#travelatorequipmentdirectionofuse" class="md-nav__link">
+    <span class="md-ellipsis">
+      TravelatorEquipment/DirectionOfUse
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#travelatorequipmenttactileactuators" class="md-nav__link">
+    <span class="md-ellipsis">
+      TravelatorEquipment/TactileActuators
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#liftequipment" class="md-nav__link">
+    <span class="md-ellipsis">
+      LiftEquipment
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="LiftEquipment">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#liftequipmentdepth" class="md-nav__link">
+    <span class="md-ellipsis">
+      LiftEquipment/Depth
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#liftequipmentmaximumload" class="md-nav__link">
+    <span class="md-ellipsis">
+      LiftEquipment/MaximumLoad
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#liftequipmentwheelchairturningcircle" class="md-nav__link">
+    <span class="md-ellipsis">
+      LiftEquipment/WheelchairTurningCircle
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#liftequipmentinternalwidth" class="md-nav__link">
+    <span class="md-ellipsis">
+      LiftEquipment/InternalWidth
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#liftequipmenthandrailtype" class="md-nav__link">
+    <span class="md-ellipsis">
+      LiftEquipment/HandrailType
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#liftequipmenthandrailheight" class="md-nav__link">
+    <span class="md-ellipsis">
+      LiftEquipment/HandrailHeight
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#liftequipmentraisedbuttons" class="md-nav__link">
+    <span class="md-ellipsis">
+      LiftEquipment/RaisedButtons
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#liftequipmentbraillebuttons" class="md-nav__link">
+    <span class="md-ellipsis">
+      LiftEquipment/BrailleButtons
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#liftequipmentmirroronoppositeside" class="md-nav__link">
+    <span class="md-ellipsis">
+      LiftEquipment/MirrorOnOppositeSide
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#liftequipmentattendant" class="md-nav__link">
+    <span class="md-ellipsis">
+      LiftEquipment/Attendant
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#liftequipmentautomatic" class="md-nav__link">
+    <span class="md-ellipsis">
+      LiftEquipment/Automatic
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#liftequipmentalarmbutton" class="md-nav__link">
+    <span class="md-ellipsis">
+      LiftEquipment/AlarmButton
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#liftequipmentaudioannouncements" class="md-nav__link">
+    <span class="md-ellipsis">
+      LiftEquipment/AudioAnnouncements
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#liftequipmentreachedfloorannouncement" class="md-nav__link">
+    <span class="md-ellipsis">
+      LiftEquipment/ReachedFloorAnnouncement
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#liftequipmentmagneticinductionloop" class="md-nav__link">
+    <span class="md-ellipsis">
+      LiftEquipment/MagneticInductionLoop
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#staircaseequipment" class="md-nav__link">
+    <span class="md-ellipsis">
+      StaircaseEquipment
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="StaircaseEquipment">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#staircaseequipmentwidth" class="md-nav__link">
+    <span class="md-ellipsis">
+      StaircaseEquipment/Width
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#staircaseequipmentnumberofsteps" class="md-nav__link">
+    <span class="md-ellipsis">
+      StaircaseEquipment/NumberofSteps
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#staircaseequipmentstepheight" class="md-nav__link">
+    <span class="md-ellipsis">
+      StaircaseEquipment/StepHeight
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#staircaseequipmentsteplength" class="md-nav__link">
+    <span class="md-ellipsis">
+      StaircaseEquipment/StepLength
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#staircaseequipmentstepcolourcontrast" class="md-nav__link">
+    <span class="md-ellipsis">
+      StaircaseEquipment/StepColourContrast
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#staircaseequipmenthandrailtype" class="md-nav__link">
+    <span class="md-ellipsis">
+      StaircaseEquipment/HandrailType
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#staircaseequipmenttopendcontinuinghandrail" class="md-nav__link">
+    <span class="md-ellipsis">
+      StaircaseEquipment/TopEnd/ContinuingHandrail
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#staircaseequipmenttopendtexturedsurface" class="md-nav__link">
+    <span class="md-ellipsis">
+      StaircaseEquipment/TopEnd/TexturedSurface
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#staircaseequipmentbottomendcontinuinghandrail" class="md-nav__link">
+    <span class="md-ellipsis">
+      StaircaseEquipment/BottomEnd/ContinuingHandrail
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#staircaseequipmentcontinuoushandrail" class="md-nav__link">
+    <span class="md-ellipsis">
+      StaircaseEquipment/ContinuousHandrail
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#staircaseequipmentnumberofflights" class="md-nav__link">
+    <span class="md-ellipsis">
+      StaircaseEquipment/NumberOfFlights
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#entranceequipment" class="md-nav__link">
+    <span class="md-ellipsis">
+      EntranceEquipment
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="EntranceEquipment">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#entranceequipmentwidth" class="md-nav__link">
+    <span class="md-ellipsis">
+      EntranceEquipment/Width
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entranceequipmentdoorhandleoutside" class="md-nav__link">
+    <span class="md-ellipsis">
+      EntranceEquipment/DoorHandleOutside
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entranceequipmentdoorhandleinside" class="md-nav__link">
+    <span class="md-ellipsis">
+      EntranceEquipment/DoorHandleInside
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entranceequipmentrevolvingdoor" class="md-nav__link">
+    <span class="md-ellipsis">
+      EntranceEquipment/RevolvingDoor
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entranceequipmentdropkerboutside" class="md-nav__link">
+    <span class="md-ellipsis">
+      EntranceEquipment/DropKerbOutside
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entranceequipmentautomaticdoor" class="md-nav__link">
+    <span class="md-ellipsis">
+      EntranceEquipment/AutomaticDoor
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entranceequipmentglassdoor" class="md-nav__link">
+    <span class="md-ellipsis">
+      EntranceEquipment/GlassDoor
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entranceequipmentaudioorvideointercom" class="md-nav__link">
+    <span class="md-ellipsis">
+      EntranceEquipment/AudioOrVideoIntercom
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entranceequipmententranceattention" class="md-nav__link">
+    <span class="md-ellipsis">
+      EntranceEquipment/EntranceAttention
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entranceequipmentdoorstepmark" class="md-nav__link">
+    <span class="md-ellipsis">
+      EntranceEquipment/DoorstepMark
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entranceequipmentnecessaryforcetoopen" class="md-nav__link">
+    <span class="md-ellipsis">
+      EntranceEquipment/NecessaryForceToOpen
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entranceequipmentrampdoorbell" class="md-nav__link">
+    <span class="md-ellipsis">
+      EntranceEquipment/RampDoorbell
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entranceequipmentrecognizable" class="md-nav__link">
+    <span class="md-ellipsis">
+      EntranceEquipment/Recognizable
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entranceequipmentturningspaceposition" class="md-nav__link">
+    <span class="md-ellipsis">
+      EntranceEquipment/TurningSpacePosition
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entranceequipmentwheelchairturningcircle" class="md-nav__link">
+    <span class="md-ellipsis">
+      EntranceEquipment/WheelchairTurningCircle
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#queueingequipment" class="md-nav__link">
+    <span class="md-ellipsis">
+      QueueingEquipment
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#roughsurface" class="md-nav__link">
+    <span class="md-ellipsis">
+      RoughSurface
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="RoughSurface">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#roughsurfacewidth" class="md-nav__link">
+    <span class="md-ellipsis">
+      RoughSurface/Width
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#roughsurfacesurfacetype" class="md-nav__link">
+    <span class="md-ellipsis">
+      RoughSurface/SurfaceType
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#assistanceservice" class="md-nav__link">
+    <span class="md-ellipsis">
+      AssistanceService
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="AssistanceService">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#assistanceserviceassistancefacilitylist" class="md-nav__link">
+    <span class="md-ellipsis">
+      AssistanceService/AssistanceFacilityList
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#assistanceservicestaffing" class="md-nav__link">
+    <span class="md-ellipsis">
+      AssistanceService/Staffing
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#assistanceserviceaccessibilitytrainedstaff" class="md-nav__link">
+    <span class="md-ellipsis">
+      AssistanceService/AccessibilityTrainedStaff
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../parking/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Fichier parking.xml
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../poi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Fichier poi.xml
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../stop/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Fichier stop.xml
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../NeTEx_vers_CNIG/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    NeTEx vers CNIG
+    
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            NeTEx vers CNIG
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#navigationpath" class="md-nav__link">
+    <span class="md-ellipsis">
+      NavigationPath
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="NavigationPath">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#navigationpathpathlinkinsequence" class="md-nav__link">
+    <span class="md-ellipsis">
+      NavigationPath/PathLinkInSequence
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sitepathlink" class="md-nav__link">
+    <span class="md-ellipsis">
+      SitePathLink
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="SitePathLink">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#sitepathlinkdistance" class="md-nav__link">
+    <span class="md-ellipsis">
+      SitePathLink/Distance
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sitepathlinkgmllinestring" class="md-nav__link">
+    <span class="md-ellipsis">
+      SitePathLink/gml:LineString
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sitepathlinkfrom" class="md-nav__link">
+    <span class="md-ellipsis">
+      SitePathLink/From
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sitepathlinkto" class="md-nav__link">
+    <span class="md-ellipsis">
+      SitePathLink/To
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sitepathlinkaccessibilityassessment" class="md-nav__link">
+    <span class="md-ellipsis">
+      SitePathLink/AccessibilityAssessment
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="SitePathLink/AccessibilityAssessment">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#wheelchairaccess" class="md-nav__link">
+    <span class="md-ellipsis">
+      WheelchairAccess
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stepfreeaccess" class="md-nav__link">
+    <span class="md-ellipsis">
+      StepFreeAccess
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#escalatorfreeaccess" class="md-nav__link">
+    <span class="md-ellipsis">
+      EscalatorFreeAccess
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#liftfreeaccess" class="md-nav__link">
+    <span class="md-ellipsis">
+      LiftFreeAccess
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visualsignsavailable" class="md-nav__link">
+    <span class="md-ellipsis">
+      VisualSignsAvailable
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#audiblesignalsavailable" class="md-nav__link">
+    <span class="md-ellipsis">
+      AudibleSignalsAvailable
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tactileguidanceavailable" class="md-nav__link">
+    <span class="md-ellipsis">
+      TactileGuidanceAvailable
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sitepathlinkpublicuse" class="md-nav__link">
+    <span class="md-ellipsis">
+      SitePathLink/PublicUse
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sitepathlinkcovered" class="md-nav__link">
+    <span class="md-ellipsis">
+      SitePathLink/Covered
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sitepathlinklighting" class="md-nav__link">
+    <span class="md-ellipsis">
+      SitePathLink/Lighting
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sitepathlinkallareaswheelchairaccessible" class="md-nav__link">
+    <span class="md-ellipsis">
+      SitePathLink/AllAreasWheelchairAccessible
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sitepathlinknumberofsteps" class="md-nav__link">
+    <span class="md-ellipsis">
+      SitePathLink/NumberOfSteps
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sitepathlinkminimumwidth" class="md-nav__link">
+    <span class="md-ellipsis">
+      SitePathLink/MinimumWidth
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sitepathlinkalloweduse" class="md-nav__link">
+    <span class="md-ellipsis">
+      SitePathLink/AllowedUse
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sitepathlinktransition" class="md-nav__link">
+    <span class="md-ellipsis">
+      SitePathLink/Transition
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sitepathlinkgradient" class="md-nav__link">
+    <span class="md-ellipsis">
+      SitePathLink/Gradient
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sitepathlinkgradienttype" class="md-nav__link">
+    <span class="md-ellipsis">
+      SitePathLink/GradientType
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sitepathlinktiltangle" class="md-nav__link">
+    <span class="md-ellipsis">
+      SitePathLink/TiltAngle
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sitepathlinktilttype" class="md-nav__link">
+    <span class="md-ellipsis">
+      SitePathLink/TiltType
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sitepathlinkaccessfeaturetype" class="md-nav__link">
+    <span class="md-ellipsis">
+      SitePathLink/AccessFeatureType
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sitepathlinkpassagetype" class="md-nav__link">
+    <span class="md-ellipsis">
+      SitePathLink/PassageType
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sitepathlinkflooringtype" class="md-nav__link">
+    <span class="md-ellipsis">
+      SitePathLink/FlooringType
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sitepathlinktactilewarningstrip" class="md-nav__link">
+    <span class="md-ellipsis">
+      SitePathLink/TactileWarningStrip
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sitepathlinktactileguidingstrip" class="md-nav__link">
+    <span class="md-ellipsis">
+      SitePathLink/TactileGuidingStrip
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sitepathlinkequipmentplaces" class="md-nav__link">
+    <span class="md-ellipsis">
+      SitePathLink/equipmentPlaces
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sitepathlinkplaceequipments" class="md-nav__link">
+    <span class="md-ellipsis">
+      SitePathLink/placeEquipments
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#crossingequipment" class="md-nav__link">
+    <span class="md-ellipsis">
+      CrossingEquipment
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CrossingEquipment">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#crossingequipmentzebracrossing" class="md-nav__link">
+    <span class="md-ellipsis">
+      CrossingEquipment/ZebraCrossing
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#crossingequipmentpedestrianlights" class="md-nav__link">
+    <span class="md-ellipsis">
+      CrossingEquipment/PedestrianLights
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#crossingequipmentacousticcrossingaids" class="md-nav__link">
+    <span class="md-ellipsis">
+      CrossingEquipment/AcousticCrossingAids
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#crossingequipmenttactilewarningstrip" class="md-nav__link">
+    <span class="md-ellipsis">
+      CrossingEquipment/TactileWarningStrip
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#crossingequipmentdroppedkerb" class="md-nav__link">
+    <span class="md-ellipsis">
+      CrossingEquipment/DroppedKerb
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#crossingequipmentmarkingstatus" class="md-nav__link">
+    <span class="md-ellipsis">
+      CrossingEquipment/MarkingStatus
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#crossingequipmentbumpcrossing" class="md-nav__link">
+    <span class="md-ellipsis">
+      CrossingEquipment/BumpCrossing
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#crossingequipmentvisualobstacle" class="md-nav__link">
+    <span class="md-ellipsis">
+      CrossingEquipment/VisualObstacle
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rampequipment" class="md-nav__link">
+    <span class="md-ellipsis">
+      RampEquipment
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="RampEquipment">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rampequipmentwidth" class="md-nav__link">
+    <span class="md-ellipsis">
+      RampEquipment/Width
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rampequipmentmaximumload" class="md-nav__link">
+    <span class="md-ellipsis">
+      RampEquipment/MaximumLoad
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rampequipmentgradient" class="md-nav__link">
+    <span class="md-ellipsis">
+      RampEquipment/Gradient
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rampequipmentgradienttype" class="md-nav__link">
+    <span class="md-ellipsis">
+      RampEquipment/GradientType
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rampequipmenthandrailtype" class="md-nav__link">
+    <span class="md-ellipsis">
+      RampEquipment/HandrailType
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rampequipmenttemporary" class="md-nav__link">
+    <span class="md-ellipsis">
+      RampEquipment/Temporary
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rampequipmentreststopdistance" class="md-nav__link">
+    <span class="md-ellipsis">
+      RampEquipment/RestStopDistance
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rampequipmentsafetyedge" class="md-nav__link">
+    <span class="md-ellipsis">
+      RampEquipment/SafetyEdge
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rampequipmentturningspace" class="md-nav__link">
+    <span class="md-ellipsis">
+      RampEquipment/TurningSpace
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#escalatorequipment" class="md-nav__link">
+    <span class="md-ellipsis">
+      EscalatorEquipment
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="EscalatorEquipment">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#escalatorequipmentwidth" class="md-nav__link">
+    <span class="md-ellipsis">
+      EscalatorEquipment/Width
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#escalatorequipmentdirectionofuse" class="md-nav__link">
+    <span class="md-ellipsis">
+      EscalatorEquipment/DirectionOfUse
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#escalatorequipmenttactileactuators" class="md-nav__link">
+    <span class="md-ellipsis">
+      EscalatorEquipment/TactileActuators
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#escalatorequipmentmonitoringremotecontrol" class="md-nav__link">
+    <span class="md-ellipsis">
+      EscalatorEquipment/MonitoringRemoteControl
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#travelatorequipment" class="md-nav__link">
+    <span class="md-ellipsis">
+      TravelatorEquipment
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="TravelatorEquipment">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#travelatorequipmentwidth" class="md-nav__link">
+    <span class="md-ellipsis">
+      TravelatorEquipment/Width
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#travelatorequipmentdirectionofuse" class="md-nav__link">
+    <span class="md-ellipsis">
+      TravelatorEquipment/DirectionOfUse
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#travelatorequipmenttactileactuators" class="md-nav__link">
+    <span class="md-ellipsis">
+      TravelatorEquipment/TactileActuators
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#liftequipment" class="md-nav__link">
+    <span class="md-ellipsis">
+      LiftEquipment
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="LiftEquipment">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#liftequipmentdepth" class="md-nav__link">
+    <span class="md-ellipsis">
+      LiftEquipment/Depth
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#liftequipmentmaximumload" class="md-nav__link">
+    <span class="md-ellipsis">
+      LiftEquipment/MaximumLoad
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#liftequipmentwheelchairturningcircle" class="md-nav__link">
+    <span class="md-ellipsis">
+      LiftEquipment/WheelchairTurningCircle
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#liftequipmentinternalwidth" class="md-nav__link">
+    <span class="md-ellipsis">
+      LiftEquipment/InternalWidth
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#liftequipmenthandrailtype" class="md-nav__link">
+    <span class="md-ellipsis">
+      LiftEquipment/HandrailType
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#liftequipmenthandrailheight" class="md-nav__link">
+    <span class="md-ellipsis">
+      LiftEquipment/HandrailHeight
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#liftequipmentraisedbuttons" class="md-nav__link">
+    <span class="md-ellipsis">
+      LiftEquipment/RaisedButtons
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#liftequipmentbraillebuttons" class="md-nav__link">
+    <span class="md-ellipsis">
+      LiftEquipment/BrailleButtons
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#liftequipmentmirroronoppositeside" class="md-nav__link">
+    <span class="md-ellipsis">
+      LiftEquipment/MirrorOnOppositeSide
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#liftequipmentattendant" class="md-nav__link">
+    <span class="md-ellipsis">
+      LiftEquipment/Attendant
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#liftequipmentautomatic" class="md-nav__link">
+    <span class="md-ellipsis">
+      LiftEquipment/Automatic
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#liftequipmentalarmbutton" class="md-nav__link">
+    <span class="md-ellipsis">
+      LiftEquipment/AlarmButton
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#liftequipmentaudioannouncements" class="md-nav__link">
+    <span class="md-ellipsis">
+      LiftEquipment/AudioAnnouncements
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#liftequipmentreachedfloorannouncement" class="md-nav__link">
+    <span class="md-ellipsis">
+      LiftEquipment/ReachedFloorAnnouncement
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#liftequipmentmagneticinductionloop" class="md-nav__link">
+    <span class="md-ellipsis">
+      LiftEquipment/MagneticInductionLoop
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#staircaseequipment" class="md-nav__link">
+    <span class="md-ellipsis">
+      StaircaseEquipment
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="StaircaseEquipment">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#staircaseequipmentwidth" class="md-nav__link">
+    <span class="md-ellipsis">
+      StaircaseEquipment/Width
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#staircaseequipmentnumberofsteps" class="md-nav__link">
+    <span class="md-ellipsis">
+      StaircaseEquipment/NumberofSteps
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#staircaseequipmentstepheight" class="md-nav__link">
+    <span class="md-ellipsis">
+      StaircaseEquipment/StepHeight
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#staircaseequipmentsteplength" class="md-nav__link">
+    <span class="md-ellipsis">
+      StaircaseEquipment/StepLength
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#staircaseequipmentstepcolourcontrast" class="md-nav__link">
+    <span class="md-ellipsis">
+      StaircaseEquipment/StepColourContrast
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#staircaseequipmenthandrailtype" class="md-nav__link">
+    <span class="md-ellipsis">
+      StaircaseEquipment/HandrailType
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#staircaseequipmenttopendcontinuinghandrail" class="md-nav__link">
+    <span class="md-ellipsis">
+      StaircaseEquipment/TopEnd/ContinuingHandrail
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#staircaseequipmenttopendtexturedsurface" class="md-nav__link">
+    <span class="md-ellipsis">
+      StaircaseEquipment/TopEnd/TexturedSurface
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#staircaseequipmentbottomendcontinuinghandrail" class="md-nav__link">
+    <span class="md-ellipsis">
+      StaircaseEquipment/BottomEnd/ContinuingHandrail
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#staircaseequipmentcontinuoushandrail" class="md-nav__link">
+    <span class="md-ellipsis">
+      StaircaseEquipment/ContinuousHandrail
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#staircaseequipmentnumberofflights" class="md-nav__link">
+    <span class="md-ellipsis">
+      StaircaseEquipment/NumberOfFlights
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#entranceequipment" class="md-nav__link">
+    <span class="md-ellipsis">
+      EntranceEquipment
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="EntranceEquipment">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#entranceequipmentwidth" class="md-nav__link">
+    <span class="md-ellipsis">
+      EntranceEquipment/Width
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entranceequipmentdoorhandleoutside" class="md-nav__link">
+    <span class="md-ellipsis">
+      EntranceEquipment/DoorHandleOutside
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entranceequipmentdoorhandleinside" class="md-nav__link">
+    <span class="md-ellipsis">
+      EntranceEquipment/DoorHandleInside
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entranceequipmentrevolvingdoor" class="md-nav__link">
+    <span class="md-ellipsis">
+      EntranceEquipment/RevolvingDoor
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entranceequipmentdropkerboutside" class="md-nav__link">
+    <span class="md-ellipsis">
+      EntranceEquipment/DropKerbOutside
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entranceequipmentautomaticdoor" class="md-nav__link">
+    <span class="md-ellipsis">
+      EntranceEquipment/AutomaticDoor
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entranceequipmentglassdoor" class="md-nav__link">
+    <span class="md-ellipsis">
+      EntranceEquipment/GlassDoor
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entranceequipmentaudioorvideointercom" class="md-nav__link">
+    <span class="md-ellipsis">
+      EntranceEquipment/AudioOrVideoIntercom
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entranceequipmententranceattention" class="md-nav__link">
+    <span class="md-ellipsis">
+      EntranceEquipment/EntranceAttention
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entranceequipmentdoorstepmark" class="md-nav__link">
+    <span class="md-ellipsis">
+      EntranceEquipment/DoorstepMark
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entranceequipmentnecessaryforcetoopen" class="md-nav__link">
+    <span class="md-ellipsis">
+      EntranceEquipment/NecessaryForceToOpen
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entranceequipmentrampdoorbell" class="md-nav__link">
+    <span class="md-ellipsis">
+      EntranceEquipment/RampDoorbell
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entranceequipmentrecognizable" class="md-nav__link">
+    <span class="md-ellipsis">
+      EntranceEquipment/Recognizable
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entranceequipmentturningspaceposition" class="md-nav__link">
+    <span class="md-ellipsis">
+      EntranceEquipment/TurningSpacePosition
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entranceequipmentwheelchairturningcircle" class="md-nav__link">
+    <span class="md-ellipsis">
+      EntranceEquipment/WheelchairTurningCircle
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#queueingequipment" class="md-nav__link">
+    <span class="md-ellipsis">
+      QueueingEquipment
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#roughsurface" class="md-nav__link">
+    <span class="md-ellipsis">
+      RoughSurface
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="RoughSurface">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#roughsurfacewidth" class="md-nav__link">
+    <span class="md-ellipsis">
+      RoughSurface/Width
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#roughsurfacesurfacetype" class="md-nav__link">
+    <span class="md-ellipsis">
+      RoughSurface/SurfaceType
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#assistanceservice" class="md-nav__link">
+    <span class="md-ellipsis">
+      AssistanceService
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="AssistanceService">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#assistanceserviceassistancefacilitylist" class="md-nav__link">
+    <span class="md-ellipsis">
+      AssistanceService/AssistanceFacilityList
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#assistanceservicestaffing" class="md-nav__link">
+    <span class="md-ellipsis">
+      AssistanceService/Staffing
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#assistanceserviceaccessibilitytrainedstaff" class="md-nav__link">
+    <span class="md-ellipsis">
+      AssistanceService/AccessibilityTrainedStaff
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="fichier-accessibilityxml">Fichier accessibility.xml</h1>
+<p>Cette partie de la documentation explique comment générer le fichier <code>accessibility.xml</code> de l'export NeTEx, qui contient les équipements et les informations de cheminement.</p>
+<h2 id="navigationpath">NavigationPath</h2>
+<p>Un objet NeTEx NavigationPath est construit pour chaque cheminement (CHEMINEMENT).</p>
+<h3 id="navigationpathpathlinkinsequence">NavigationPath/PathLinkInSequence</h3>
+<p>NavigationPath/PathLinkInSequence est rempli avec des références vers les objets NeTEx correspondants aux tronçons de cheminement qui composent le cheminement.</p>
+<h2 id="sitepathlink">SitePathLink</h2>
+<p>Un objet NeTEx SitePathLink est construit pour chaque tronçon de cheminement (TRONCON_CHEMINEMENT).</p>
+<div class="admonition info">
+<p class="admonition-title">Remarque</p>
+<p>Il faudrait théoriquement également créer un ou plusieurs objets NeTEx SitePathLink pour représenter les déplacements verticaux qu'on peut effectuer en ascenseur (ASCENSEUR) ou avec un élévateur (ELEVATEUR), mais la modélisation et les attributs CNIG ne le permettent pas (il n'est notamment pas possible d'identifier les niveaux desservis et donc le nombre de SitePathLink à créer en conséquence).</p>
+</div>
+<h3 id="sitepathlinkdistance">SitePathLink/Distance</h3>
+<p>SitePathLink/Distance est rempli à partir de l'attribut TRONCON_CHEMINEMENT.distance.</p>
+<h3 id="sitepathlinkgmllinestring">SitePathLink/gml:LineString</h3>
+<p>SitePathLink/gml:LineString est construit à partir de la géométrie du TRONCON_CHEMINEMENT. Une géométrie linéaire est attendue.</p>
+<h3 id="sitepathlinkfrom">SitePathLink/From</h3>
+<p>SitePathLink/From est construit à partir de l'attribut TRONCON_CHEMINEMENT.from.</p>
+<p>Il s'agit d'une référence vers l'objet NeTEx qui représente le nœud de départ du tronçon.</p>
+<h3 id="sitepathlinkto">SitePathLink/To</h3>
+<p>SitePathLink/To est construit à partir de l'attribut TRONCON_CHEMINEMENT.to.</p>
+<p>Il s'agit d'une référence vers l'objet NeTEx qui représente le nœud de destination du tronçon.</p>
+<h3 id="sitepathlinkaccessibilityassessment">SitePathLink/AccessibilityAssessment</h3>
+<p>SitePathLink/AccessibilityAssessment est calculé à partir des attributs du TRONCON_CHEMINEMENT.</p>
+<h4 id="wheelchairaccess">WheelchairAccess</h4>
+<p>Si le TRONCON_CHEMINEMENT est un ESCALIER, ESCALATOR ou un TAPIS_ROULANT, WheelchairAccess est rempli avec la valeur fixe false.</p>
+<p>Si le TRONCON_CHEMINEMENT est une RAMPE, WheelchairAccess est rempli avec les règles de gestion suivantes :</p>
+<ul>
+<li>false si TRONCON_CHEMINEMENT.pente &gt; 5%</li>
+<li>false si RAMPE.largeurUtile &lt; 1,4m</li>
+<li>true si TRONCON_CHEMINEMENT.pente ≤ 5% et RAMPE.largeurUtile ≥ 1,4 m</li>
+</ul>
+<p>Si le TRONCON_CHEMINEMENT est une CIRCULATION, WheelchairAccess est rempli avec les règles de gestion suivantes :</p>
+<ul>
+<li>false si TRONCON_CHEMINEMENT.devers &gt; 5%</li>
+<li>false si TRONCON_CHEMINEMENT.pente &gt; 8%</li>
+<li>false si CIRCULATION.largeurUtile &lt; 0.9 m</li>
+<li>false si CIRCULATION.typesol = gravel / stabilisé / uneven</li>
+<li>false si CIRCULATION.etatRevetement = dégradation entraînant un problème de sécurité immédiat</li>
+<li>false si le tronçon de cheminement comporte un ou plusieurs OBSTACLEs</li>
+<li>true si toutes les conditions suivantes sont remplies :<ul>
+<li>TRONCON_CHEMINEMENT.devers ≤ 2%</li>
+<li>TRONCON_CHEMINEMENT.pente ≤ 5%</li>
+<li>CIRCULATION.largeurUtile ≥ 1,4 m</li>
+<li>CIRCULATION.typesol != gravel / stabilisé / uneven</li>
+<li>CIRCULATION.etatRevetement != dégradation entraînant un problème de sécurité immédiat</li>
+<li>le tronçon de cheminement ne comporte aucun OBSTACLE</li>
+</ul>
+</li>
+<li>sinon, partial si toutes les conditions suivantes sont remplies :<ul>
+<li>TRONCON_CHEMINEMENT.devers ≤ 5%</li>
+<li>TRONCON_CHEMINEMENT.pente ≤ 8%</li>
+<li>CIRCULATION.largeurUtile ≥ 0.9 m</li>
+<li>CIRCULATION.typesol != gravel / stabilisé / uneven</li>
+<li>CIRCULATION.etatRevetement != dégradation entraînant un problème de sécurité immédiat</li>
+<li>le tronçon de cheminement ne comporte aucun OBSTACLE</li>
+</ul>
+</li>
+<li>unknown sinon</li>
+</ul>
+<p>Si le TRONCON_CHEMINEMENT est une TRAVERSEE, WheelchairAccess est rempli avec les règles de gestion suivantes :</p>
+<ul>
+<li>false si TRONCON_CHEMINEMENT.devers &gt; 5%</li>
+<li>false si TRONCON_CHEMINEMENT.pente &gt; 8%</li>
+<li>false si TRAVERSEE.etatRevetement = dégradation entraînant un problème de sécurité immédiat</li>
+<li>false si au moins une des deux extrémités du tronçon de cheminement correspondant à la traversée a NOEUD_CHEMINEMENT.hauteurRessaut &gt; 0.04 m</li>
+<li>true si toutes les conditions suivantes sont remplies :<ul>
+<li>TRONCON_CHEMINEMENT.devers ≤ 2%</li>
+<li>TRONCON_CHEMINEMENT.pente ≤ 5%</li>
+<li>TRAVERSEE.etatRevetement != dégradation entraînant un problème de sécurité immédiat</li>
+<li>les deux extrémités du tronçon de cheminement correspondant à la traversée ont NOEUD_CHEMINEMENT.hauteurRessaut ≥ 0.02 m</li>
+</ul>
+</li>
+<li>sinon, partial si toutes les conditions suivantes sont remplies :<ul>
+<li>TRONCON_CHEMINEMENT.devers ≤ 5%</li>
+<li>TRONCON_CHEMINEMENT.pente ≤ 8%</li>
+<li>TRAVERSEE.etatRevetement != dégradation entraînant un problème de sécurité immédiat</li>
+<li>les deux extrémités du tronçon de cheminement correspondant à la traversée ont NOEUD_CHEMINEMENT.hauteurRessaut ≤ 0.04 m</li>
+</ul>
+</li>
+<li>unknown sinon</li>
+</ul>
+<p>Si le TRONCON_CHEMINEMENT est un QUAI, WheelchairAccess est rempli avec les règles de gestion suivantes :</p>
+<ul>
+<li>false si TRONCON_CHEMINEMENT.devers &gt; 5%</li>
+<li>false si TRONCON_CHEMINEMENT.pente &gt; 8%</li>
+<li>false si QUAI.largeurPassage &lt; 0.9 m</li>
+<li>false si QUAI.diamZoneManoeuvre &lt; 1.5 m</li>
+<li>false si QUAI.etatRevetement = dégradation entraînant un problème de sécurité immédiat</li>
+<li>false si le tronçon de cheminement comporte un ou plusieurs OBSTACLEs</li>
+<li>true si toutes les conditions suivantes sont remplies :<ul>
+<li>TRONCON_CHEMINEMENT.devers ≤ 2%</li>
+<li>TRONCON_CHEMINEMENT.pente ≤ 5%</li>
+<li>QUAI.largeurPassage ≥ 1,4 m</li>
+<li>QUAI.etatRevetement != dégradation entraînant un problème de sécurité immédiat</li>
+<li>le tronçon de cheminement ne comporte aucun OBSTACLE</li>
+</ul>
+</li>
+<li>sinon, partial si toutes les conditions suivantes sont remplies :<ul>
+<li>TRONCON_CHEMINEMENT.devers ≤ 5%</li>
+<li>TRONCON_CHEMINEMENT.pente ≤ 8%</li>
+<li>QUAI.largeurPassage ≥ 0.9 m</li>
+<li>QUAI.etatRevetement != dégradation entraînant un problème de sécurité immédiat</li>
+<li>le tronçon de cheminement ne comporte aucun OBSTACLE</li>
+</ul>
+</li>
+<li>unknown sinon</li>
+</ul>
+<p>Enfin, si aucune des conditions n'est remplie, WheelchairAccess vaudra "unknown".</p>
+<h4 id="stepfreeaccess">StepFreeAccess</h4>
+<p>Si le TRONCON_CHEMINEMENT est un ESCALIER, StepFreeAccess est rempli avec la valeur fixe "false".</p>
+<p>Si le TRONCON_CHEMINEMENT est un ESCALATOR, un TAPIS_ROULANT ou une RAMPE, StepFreeAccess est rempli avec la valeur fixe "true".</p>
+<p>Si le TRONCON_CHEMINEMENT est une TRAVERSEE, StepFreeAccess est rempli avec les règles de gestion suivantes :</p>
+<ul>
+<li>false si au moins une des deux extrémités du tronçon de cheminement correspondant à la traversée a NOEUD_CHEMINEMENT.hauteurRessaut &gt; 0.04 m</li>
+<li>true si les deux extrémités du tronçon de cheminement correspondant à la traversée ont NOEUD_CHEMINEMENT.hauteurRessaut ≥ 0.02 m</li>
+<li>sinon, partial si les deux extrémités du tronçon de cheminement correspondant à la traversée ont NOEUD_CHEMINEMENT.hauteurRessaut ≤ 0.04 m. Dans ce cas, on ajoute "Présence de marches de moins de 4 cm" à la liste des phrases utilisées pour constituer AccessibilityAssessment/validityConditions/ValidityCondition/Description</li>
+<li>unknown sinon</li>
+</ul>
+<p>Sinon, StepFreeAccess est rempli avec les règles de gestion suivantes :</p>
+<ul>
+<li>false si le tronçon de cheminement comporte un ou plusieurs OBSTACLEs avec OBSTACLE.typeObstacle = ressaut</li>
+<li>true si le tronçon de cheminement ne comporte aucun OBSTACLE avec OBSTACLE.typeObstacle = ressaut</li>
+<li>unknown sinon</li>
+</ul>
+<p>Enfin, si aucune des conditions n'est remplie, StepFreeAccess vaudra "unknown".</p>
+<h4 id="escalatorfreeaccess">EscalatorFreeAccess</h4>
+<p>Si le TRONCON_CHEMINEMENT est un ESCALATOR, EscalatorFreeAccess est rempli avec la valeur fixe "false".</p>
+<p>Sinon, EscalatorFreeAccess est rempli avec la valeur fixe "true".</p>
+<h4 id="liftfreeaccess">LiftFreeAccess</h4>
+<p>Si une des extrémités du TRONCON_CHEMINEMENT correspond à un ASCENSEUR ou un ELEVATEUR, LiftFreeAccess est rempli avec la valeur fixe "false".</p>
+<p>Sinon, LiftFreeAccess est rempli avec la valeur fixe "true".</p>
+<h4 id="visualsignsavailable">VisualSignsAvailable</h4>
+<p>Si le TRONCON_CHEMINEMENT est une TRAVERSEE, VisualSignsAvailable est rempli avec les règles de gestion suivantes :</p>
+<ul>
+<li>false si TRAVERSEE.typeMarquage = aucun</li>
+<li>false si TRAVERSEE.etatMarquage = absence</li>
+<li>true si TRAVERSEE.etatMarquage = bon état / dégradation sans gravité</li>
+<li>partial si TRAVERSEE.etatMarquage = dégradation entraînant une difficulté d'usage ou d'inconfort. Dans ce cas, on ajoute à la liste des phrases utilisées pour constituer AccessibilityAssessment/validityConditions/ValidityCondition/Description la phrase suivante : "Marquage au sol avec dégradation entraînant une difficulté d’usage ou d’inconfort"</li>
+<li>partial si TRAVERSEE.etatMarquage = dégradation entraînant un problème de sécurité immédiat. Dans ce cas, on ajoute à la liste des phrases utilisées pour constituer AccessibilityAssessment/validityConditions/ValidityCondition/Description la phrase suivante : "Marquage au sol avec dégradation entraînant un problème de sécurité immédiat"</li>
+<li>unknown sinon</li>
+</ul>
+<p>Sinon, VisualSignsAvailable n'est pas renseigné.</p>
+<h4 id="audiblesignalsavailable">AudibleSignalsAvailable</h4>
+<p>Si le TRONCON_CHEMINEMENT est une TRAVERSEE, AudibleSignalsAvailable est rempli avec les règles de gestion suivantes :</p>
+<ul>
+<li>false si TRAVERSEE.aideSonore = absence</li>
+<li>true si TRAVERSEE.aideSonore = bon état / dégradation sans gravité</li>
+<li>partial si TRAVERSEE.aideSonore = dégradation entraînant une difficulté d'usage ou d'inconfort. Dans ce cas, on ajoute à la liste des phrases utilisées pour constituer AccessibilityAssessment/validityConditions/ValidityCondition/Description la phrase suivante : "Répétiteurs sonores avec dégradation entraînant une difficulté d’usage ou d’inconfort"</li>
+<li>partia si TRAVERSEE.aideSonore = dégradation entraînant un problème de sécurité immédiat. Dans ce cas, on ajoute à la liste des phrases utilisées pour constituer AccessibilityAssessment/validityConditions/ValidityCondition/Description la phrase suivante : "Répétiteurs sonores avec dégradation entraînant un problème de sécurité immédiat"</li>
+<li>unknown sinon</li>
+</ul>
+<p>Sinon, AudibleSignalsAvailable n'est pas renseigné.</p>
+<h4 id="tactileguidanceavailable">TactileGuidanceAvailable</h4>
+<p>Si le TRONCON_CHEMINEMENT est une CIRCULATION, TactileGuidanceAvailable est rempli avec les règles de gestion suivantes :</p>
+<ul>
+<li>false si CIRCULATION.repereLineaire = aucun</li>
+<li>true si CIRCULATION.repereLineaire != aucun</li>
+<li>unknown sinon</li>
+</ul>
+<p>Si le TRONCON_CHEMINEMENT est une TRAVERSEE, TactileGuidanceAvailable est rempli avec les règles de gestion suivantes :</p>
+<ul>
+<li>false si TRAVERSEE.repereLineaire = aucun</li>
+<li>true si TRAVERSEE.repereLineaire != aucun</li>
+<li>unknown sinon</li>
+</ul>
+<p>Si le TRONCON_CHEMINEMENT est un QUAI, TactileGuidanceAvailable est rempli avec les règles de gestion suivantes :</p>
+<ul>
+<li>false si QUAI.signalisationPorte != tactile / visuel et tactile / tactile et sonore / visuel et tactile et sonore</li>
+<li>true si QUAI.signalisationPorte = tactile / visuel et tactile / tactile et sonore / visuel et tactile et sonore</li>
+<li>unknown sinon</li>
+</ul>
+<p>Sinon, TactileGuidanceAvailable est rempli avec la valeur fixe "unknown".</p>
+<h3 id="sitepathlinkpublicuse">SitePathLink/PublicUse</h3>
+<p>SitePathLink/PublicUse a la valeur fixe "all" car tous les cheminements décrits sont réputés accessibles à tous.</p>
+<h3 id="sitepathlinkcovered">SitePathLink/Covered</h3>
+<p>SitePathLink/Covered est rempli à partir de l'attribut CIRCULATION.couvert de l'objet CIRCULATION correspondant au TRONCON_CHEMINEMENT courant :</p>
+<ul>
+<li>indoors si couvert = intérieur</li>
+<li>outdoors si couvert = extérieur non couvert</li>
+<li>covered si couvert = extérieur couvert</li>
+<li>unknown si non renseigné</li>
+</ul>
+<p>Si le TRONCON_CHEMINEMENT n'est pas une CIRCULATION, l'élément SitePathLink/Covered est absent.</p>
+<h3 id="sitepathlinklighting">SitePathLink/Lighting</h3>
+<p>Si le TRONCON_CHEMINEMENT est une CIRCULATION, SitePathLink/Lighting est rempli à partir de l'attribut CIRCULATION.eclairage de l'objet CIRCULATION correspondant au TRONCON_CHEMINEMENT courant :</p>
+<ul>
+<li>wellLit si eclairage = bon éclairage</li>
+<li>poorlyLit si eclairage = éclairage insuffisant</li>
+<li>unlit si eclairage = absence d’éclairage</li>
+<li>unknown si non renseigné</li>
+</ul>
+<p>Si le TRONCON_CHEMINEMENT est une TRAVERSEE, SitePathLink/Lighting est rempli à partir de l'attribut TRAVERSEE.eclairage de l'objet TRAVERSEE correspondant au TRONCON_CHEMINEMENT courant avec les mêmes règles de gestion.</p>
+<p>Si le TRONCON_CHEMINEMENT est un ASCENSEUR, SitePathLink/Lighting est rempli à partir de l'attribut TRAVERSEE.eclairage de l'objet ASCENSEUR correspondant au TRONCON_CHEMINEMENT courant : TODO</p>
+<p>Sinon, l'élément SitePathLink/Lighting est absent.</p>
+<h3 id="sitepathlinkallareaswheelchairaccessible">SitePathLink/AllAreasWheelchairAccessible</h3>
+<p>SitePathLink/AllAreasWheelchairAccessible est rempli avec la valeur true si WheelchairAccess vaut true, et false si WheelchairAccess est false.</p>
+<p>Sinon, SitePathLink/AllAreasWheelchairAccessible n'est pas renseigné.</p>
+<h3 id="sitepathlinknumberofsteps">SitePathLink/NumberOfSteps</h3>
+<p>Si le TRONCON_CHEMINEMENT est un ESCALIER, SitePathLink/NumberOfSteps est rempli à partir de l'attribut ESCALIER.nbMarches de l'objet ESCALIER correspondant au TRONCON_CHEMINEMENT courant.</p>
+<p>Si le TRONCON_CHEMINEMENT comporte un ou plusieurs OBSTACLEs avec OBSTACLE.typeObstacle = ressaut, SitePathLink/NumberOfSteps est rempli avec le nombre de ces OBSTACLEs.</p>
+<p>Sinon, SitePathLink/NumberOfSteps est rempli avec la valeur fixe 0.</p>
+<h3 id="sitepathlinkminimumwidth">SitePathLink/MinimumWidth</h3>
+<p>Si le TRONCON_CHEMINEMENT est une CIRCULATION ne comportant aucun OBSTACLE, SitePathLink/MinimumWidth est rempli à partir de l'attribut CIRCULATION.largeurUtile de l'objet CIRCULATION correspondant au TRONCON_CHEMINEMENT courant.</p>
+<p>Si le TRONCON_CHEMINEMENT est une CIRCULATION et comporte un ou plusieurs OBSTACLEs ou PASSAGE_SELECTIFs, SitePathLink/MinimumWidth est rempli avec la plus petite valeur d'OBSTACLE.largeurUtile et PASSAGE_SELECTIF.largeurUtile.</p>
+<p>Remarque : si tous les OBSTACLE.largeurUtile = 9999 et tous les PASSAGE_SELECTIF.largeurUtile = 9999, on peut ignorer les obstacles et utiliser CIRCULATION.largeurUtile.</p>
+<p>Si le TRONCON_CHEMINEMENT est une RAMPE, SitePathLink/MinimumWidth est rempli à partir de l'attribut RAMPE.largeurUtile de l'objet RAMPE correspondant au TRONCON_CHEMINEMENT courant.</p>
+<p>Si le TRONCON_CHEMINEMENT est un ESCALIER, SitePathLink/MinimumWidth est rempli à partir de l'attribut ESCALIER.largeurUtile de l'objet ESCALIER correspondant au TRONCON_CHEMINEMENT courant.</p>
+<p>Si le TRONCON_CHEMINEMENT est un ESCALATOR, SitePathLink/MinimumWidth est rempli à partir de l'attribut ESCALATOR.largeurUtile de l'objet ESCALATOR correspondant au TRONCON_CHEMINEMENT courant.</p>
+<p>Si le TRONCON_CHEMINEMENT est un TAPIS_ROULANT, SitePathLink/MinimumWidth est rempli à partir de l'attribut TAPIS_ROULANT.largeurUtile de l'objet TAPIS_ROULANT correspondant au TRONCON_CHEMINEMENT courant.</p>
+<p>Si le TRONCON_CHEMINEMENT est un QUAI, SitePathLink/MinimumWidth est rempli à partir de l'attribut QUAI.largeurPassage de l'objet QUAI correspondant au TRONCON_CHEMINEMENT courant.</p>
+<p>Sinon, ou si l'attribut en question est manquant, SitePathLink/MinimumWidth est absent.</p>
+<div class="admonition info">
+<p class="admonition-title">Cas particulier</p>
+<p>Si l'attribut représentant la largeur utile de l'objet CNIG vaut 9999, on utilisera la valeur 1.80 à la place pour renseigner SitePathLink/MinimumWidth.</p>
+</div>
+<h3 id="sitepathlinkalloweduse">SitePathLink/AllowedUse</h3>
+<p>Si le TRONCON_CHEMINEMENT est un TAPIS_ROULANT, SitePathLink/AllowedUse est rempli à partir de l'attribut TAPIS_ROULANT.sens de l'objet TAPIS_ROULANT correspondant au TRONCON_CHEMINEMENT courant :</p>
+<ul>
+<li>twoWay si sens = variable</li>
+<li>oneWay si sens = direct ou sens = indirect</li>
+</ul>
+<p>Si le TRONCON_CHEMINEMENT est un ESCALATOR, SitePathLink/AllowedUse est rempli à partir de l'attribut ESCALATOR.transition de l'objet ESCALATOR correspondant au TRONCON_CHEMINEMENT courant :</p>
+<ul>
+<li>twoWay si transition = variable</li>
+<li>oneWay si transition = montée ou transition = descente</li>
+</ul>
+<p>Sinon, SitePathLink/AllowedUse est absent.</p>
+<h3 id="sitepathlinktransition">SitePathLink/Transition</h3>
+<p>Si le TRONCON_CHEMINEMENT est une CIRCULATION, SitePathLink/Transition est rempli à partir de l'attribut CIRCULATION.transition de l'objet CIRCULATION correspondant au TRONCON_CHEMINEMENT courant :</p>
+<ul>
+<li>up si transition = montée</li>
+<li>down si transition = descente</li>
+<li>level si transition = pas de changement de niveau</li>
+<li>SitePathLink/Transition est absent si transition = variable</li>
+</ul>
+<p>Si le TRONCON_CHEMINEMENT est un ESCALATOR, SitePathLink/Transition est rempli à partir de l'attribut ESCALATOR.transition de l'objet ESCALATOR correspondant au TRONCON_CHEMINEMENT courant avec les mêmes règles de gestion</p>
+<p>Sinon, SitePathLink/Transition est absent.</p>
+<h3 id="sitepathlinkgradient">SitePathLink/Gradient</h3>
+<p>SitePathLink/Gradient est rempli à partir de l'attribut TRONCON_CHEMINEMENT.pente, après conversion des pourcentages en degrés. La formule suivante peut être utilisée : <code>ceil(round(360 / (2 * PI) * 100 * arctan(pente / 100)) / 100)</code>.</p>
+<h3 id="sitepathlinkgradienttype">SitePathLink/GradientType</h3>
+<p>SitePathLink/GradientType est rempli à partir de l'attribut TRONCON_CHEMINEMENT.pente, avec les règles de gestion suivantes :</p>
+<ul>
+<li>verySteep si pente supérieur ou égal à 9%</li>
+<li>steep si pente entre 6 et 8%</li>
+<li>medium si pente = 5%</li>
+<li>gentle si pente entre 1 et 4%</li>
+<li>level si pente = 0%</li>
+</ul>
+<h3 id="sitepathlinktiltangle">SitePathLink/TiltAngle</h3>
+<p>SitePathLink/TiltAngle est rempli à partir de l'attribut TRONCON_CHEMINEMENT.devers, après conversion des pourcentages en degrés. La formule suivante peut être utilisée : <code>ceil(round(360 / (2 * PI) * 100 * arctan(pente / 100)) / 100)</code>.</p>
+<h3 id="sitepathlinktilttype">SitePathLink/TiltType</h3>
+<p>Si TRONCON_CHEMINEMENT.devers est strictement inférieur à 2%, SitePathLink/TiltType est rempli avec la valeur fixe "nearlyFlat".</p>
+<p>Sinon, SitePathLink/TiltType n'est pas renseigné.</p>
+<h3 id="sitepathlinkaccessfeaturetype">SitePathLink/AccessFeatureType</h3>
+<p>SitePathLink/AccessFeatureType est rempli à partir de la valeur de l'attribut TRONCON_CHEMINEMENT.typeTroncon avec les règles de gestion suivantes :</p>
+<ul>
+<li>footpath si typeTroncon = chemin piéton</li>
+<li>lift si typeTroncon = ascenseur / monte-charge / monte personne</li>
+<li>stairs si typeTroncon = escalier</li>
+<li>seriesOfStairs si typeTroncon = série d’escaliers</li>
+<li>escalator si typeTroncon = escalator</li>
+<li>travelator si typeTroncon = tapis roulant</li>
+<li>ramp si typeTroncon = rampe</li>
+<li>shuttle si typeTroncon = navette</li>
+<li>crossing si typeTroncon = traversée piétonne</li>
+<li>barrier si typeTroncon = présence de barrière(s)</li>
+<li>narrowEntrance si typeTroncon = passage étroit</li>
+<li>hall si typeTroncon = hall / couloir intérieur</li>
+<li>openSpace si typeTroncon = espace ouvert</li>
+<li>street si typeTroncon = rue</li>
+<li>pavement si typeTroncon = trottoir / Îlot de traversée piétonne / quai</li>
+<li>concourse si typeTroncon = passage</li>
+<li>confinedSpace si typeTroncon = espace confiné</li>
+<li>queueManagement si typeTroncon = gestion de queue</li>
+</ul>
+<h3 id="sitepathlinkpassagetype">SitePathLink/PassageType</h3>
+<p>Si le TRONCON_CHEMINEMENT est une CIRCULATION, SitePathLink/PassageType est rempli à partir de l'attribut CIRCULATION.typepassage de l'objet CIRCULATION correspondant au TRONCON_CHEMINEMENT courant :</p>
+<ul>
+<li>pathway si typepassage = en surface</li>
+<li>corridor si typepassage = couloir</li>
+<li>overpass si typepassage = aérien</li>
+<li>underpass si typepassage = passage souterrain</li>
+<li>tunnel si typepassage = tunnel</li>
+</ul>
+<p>Sinon, SitePathLink/PassageType n'est pas renseigné.</p>
+<h3 id="sitepathlinkflooringtype">SitePathLink/FlooringType</h3>
+<p>Si le TRONCON_CHEMINEMENT est une CIRCULATION, SitePathLink/FlooringType est rempli à partir de l'attribut CIRCULATION.typesol de l'objet CIRCULATION correspondant au TRONCON_CHEMINEMENT courant :</p>
+<ul>
+<li>carpet si typesol = carpet</li>
+<li>concrete si typesol = concrete</li>
+<li>asphalt si typesol = asphalt</li>
+<li>cork si typesol = cork</li>
+<li>fibreglassGrating si typesol = fibreglassGrating</li>
+<li>glazedCeramicTiles si typesol = glazedCeramicTiles</li>
+<li>plasticMatting si typesol = plasticMatting</li>
+<li>ceramicTiles si typesol = ceramicTiles</li>
+<li>rubber si typesol = rubber</li>
+<li>steelPlate si typesol = steelPlate</li>
+<li>vinyl si typesol = vinyl</li>
+<li>wood si typesol = wood</li>
+<li>stone si typesol = stone</li>
+<li>grass si typesol = grass</li>
+<li>earth si typesol = dirt</li>
+<li>gravel si typesol = gravel</li>
+<li>uneven si typesol = uneven</li>
+<li>other si typesol a une autre valeur</li>
+</ul>
+<p>Sinon, SitePathLink/FlooringType n'est pas renseigné.</p>
+<h3 id="sitepathlinktactilewarningstrip">SitePathLink/TactileWarningStrip</h3>
+<p>SitePathLink/TactileWarningStrip est renseigné en utilisant l'attribut NOEUD_CHEMINEMENT.bandeEveilVigilance des deux extrémités du tronçon de cheminement, avec les règles de gestion suivantes :</p>
+<ul>
+<li>unknown si les deux extrémités ont bandeEveilVigilance = sans objet</li>
+<li>noTactileStrip si chaque extrémité a bandeEveilVigilance = absence/sans objet</li>
+<li>tactileStripAtBothEnds si les deux extrémités ont bandeEveilVigilance != absence/sans objet</li>
+<li>tactileStripAtBeginning si l'extrémité de départ a bandeEveilVigilance != absence/sans objet et l'extrémité d'arrivée a bandeEveilVigilance = absence/sans objet</li>
+<li>tactileStripAtEnd si l'extrémité d'arrivée a bandeEveilVigilance != absence/sans objet et l'extrémité de départ a bandeEveilVigilance = absence/sans objet</li>
+</ul>
+<h3 id="sitepathlinktactileguidingstrip">SitePathLink/TactileGuidingStrip</h3>
+<p>Si le TRONCON_CHEMINEMENT est une CIRCULATION, SitePathLink/TactileGuidingStrip est rempli à partir de l'attribut CIRCULATION.repereLineaire de l'objet CIRCULATION correspondant au TRONCON_CHEMINEMENT courant :</p>
+<ul>
+<li>true si repereLineaire = bande de guidage</li>
+<li>false si repereLineaire != bande de guidage</li>
+</ul>
+<p>Sinon, SitePathLink/TactileGuidingStrip n'est pas renseigné.</p>
+<h3 id="sitepathlinkequipmentplaces">SitePathLink/equipmentPlaces</h3>
+<p>Si le TRONCON_CHEMINEMENT comporte certains types d'OBSTACLEs, ou si une de ses extrémités correspond à une ENTREE, un ASCENSEUR ou un ELEVATEUR, SitePathLink/equipmentPlaces contient une liste de référence vers les objets NeTEx correspondant à ces objets, ainsi que leurs positions respectives.</p>
+<p>Les équipements concernés sont :</p>
+<ul>
+<li>CrossingEquipment si le tronçon de cheminement comporte un obstacle avec typeObstacle = traversée de piste cyclable exporté en CrossingEquipment</li>
+<li>StaircaseEquipment si le tronçon de cheminement comporte un obstacle avec typeObstacle = ressaut exporté en StaircaseEquipment</li>
+<li>RoughSurface si le tronçon de cheminement comporte un obstacle avec typeObstacle = surface irrégulière exporté en RoughSurface</li>
+<li>EntranceEquipment si le tronçon de cheminement est le point de départ ou de destination d'un NOEUD_CHEMINEMENT qui correspond à une entrée exportée en EntranceEquipment</li>
+<li>LiftEquipment si le tronçon de cheminement est le point de départ ou de destination d'un NOEUD_CHEMINEMENT qui correspond à un ascenseur ou un élévateur exporté en LiftEquipment</li>
+</ul>
+<h3 id="sitepathlinkplaceequipments">SitePathLink/placeEquipments</h3>
+<p>Si le TRONCON_CHEMINEMENT est un équipement d'accès, SitePathLink/placeEquipments est rempli avec une référence vers l'objet NeTEx associé à cet équipement.</p>
+<p>Les équipements concernés sont :</p>
+<ul>
+<li>CrossingEquipment si le TRONCON_CHEMINEMENT est une TRAVERSEE</li>
+<li>RampEquipment si le TRONCON_CHEMINEMENT est une RAMPE</li>
+<li>StaircaseEquipment si le TRONCON_CHEMINEMENT est un ESCALIER</li>
+<li>EscalatorEquipment si le TRONCON_CHEMINEMENT est un ESCALATOR</li>
+<li>TravelatorEquipment si le TRONCON_CHEMINEMENT est un TAPIS_ROULANT</li>
+<li>QueueingEquipment si TRONCON_CHEMINEMENT.typetronçon = gestion de queue</li>
+<li>LiftEquipment si TRONCON_CHEMINEMENT.typetronçon = ascenseur</li>
+</ul>
+<h2 id="crossingequipment">CrossingEquipment</h2>
+<p>Un élément NeTEx CrossingEquipment est créé pour chaque traversée (TRAVERSEE).</p>
+<p>Un élément NeTEx CrossingEquipment est également créé pour chaque OBSTACLE avec typeObstacle = traversée de piste cyclable.</p>
+<h3 id="crossingequipmentzebracrossing">CrossingEquipment/ZebraCrossing</h3>
+<p>CrossingEquipment/ZebraCrossing est rempli à partir de la valeur de l'attribut TRAVERSEE.typeMarquage :</p>
+<ul>
+<li>true si typeMarquage = bandes blanches</li>
+<li>false sinon</li>
+</ul>
+<p>Dans le cas d'un CrossingEquipment créé à partir d'un obstacle, CrossingEquipment/ZebraCrossing n'est pas renseigné.</p>
+<h3 id="crossingequipmentpedestrianlights">CrossingEquipment/PedestrianLights</h3>
+<p>CrossingEquipment/PedestrianLights est rempli à partir de la valeur de l'attribut TRAVERSEE.feuPietons.</p>
+<p>Dans le cas d'un CrossingEquipment créé à partir d'un obstacle, CrossingEquipment/PedestrianLights n'est pas renseigné.</p>
+<h3 id="crossingequipmentacousticcrossingaids">CrossingEquipment/AcousticCrossingAids</h3>
+<p>CrossingEquipment/AcousticCrossingAids est rempli à partir de la valeur de l'attribut TRAVERSEE.aideSonore :</p>
+<ul>
+<li>true si aideSonore != absence</li>
+<li>false si aideSonore = absence</li>
+</ul>
+<p>Dans le cas d'un CrossingEquipment créé à partir d'un obstacle, CrossingEquipment/AcousticCrossingAids est rempli avec la valeur fixe false.</p>
+<h3 id="crossingequipmenttactilewarningstrip">CrossingEquipment/TactileWarningStrip</h3>
+<p>CrossingEquipment/TactileWarningStrip est renseigné en utilisant l'attribut NOEUD_CHEMINEMENT.bandeEveilVigilance des deux extrémités du tronçon de cheminement correspondant à la traversée, avec les règles de gestion suivantes :</p>
+<ul>
+<li>unknown si les deux extrémités ont bandeEveilVigilance = sans objet</li>
+<li>noTactileStrip si chaque extrémité a bandeEveilVigilance = absence/sans objet</li>
+<li>tactileStripAtBothEnds si les deux extrémités ont bandeEveilVigilance != absence/sans objet</li>
+<li>tactileStripAtBeginning si l'extrémité de départ a bandeEveilVigilance != absence/sans objet et l'extrémité d'arrivée a bandeEveilVigilance = absence/sans objet</li>
+<li>tactileStripAtEnd si l'extrémité d'arrivée a bandeEveilVigilance != absence/sans objet et l'extrémité de départ a bandeEveilVigilance = absence/sans objet</li>
+</ul>
+<p>Dans le cas d'un CrossingEquipment créé à partir d'un obstacle, CrossingEquipment/TactileWarningStrip est rempli avec la valeur fixe unknown.</p>
+<h3 id="crossingequipmentdroppedkerb">CrossingEquipment/DroppedKerb</h3>
+<p>CrossingEquipment/DroppedKerb est renseigné en utilisant l'attribut NOEUD_CHEMINEMENT.hauteurRessaut des deux extrémités du tronçon de cheminement correspondant à la traversée, avec les règles de gestion suivantes :</p>
+<ul>
+<li>true si les deux extrémités ont hauteurRessaut inférieur ou égal à 2 cm</li>
+<li>false sinon</li>
+</ul>
+<p>Dans le cas d'un CrossingEquipment créé à partir d'un obstacle, CrossingEquipment/DroppedKerb n'est pas renseigné.</p>
+<h3 id="crossingequipmentmarkingstatus">CrossingEquipment/MarkingStatus</h3>
+<p>CrossingEquipment/MarkingStatus est rempli à partir de la valeur de l'attribut TRAVERSEE.etatMarquage avec les règles de gestion suivantes :</p>
+<ul>
+<li>good si etatMarquage = bon état</li>
+<li>worn si etatMarquage = dégradation sans gravité / dégradation entraînant une difficulté d'usage ou d'inconfort</li>
+<li>hazardous si etatMarquage = dégradation entraînant un problème de sécurité immédiat</li>
+<li>none si etatMarquage = absence</li>
+</ul>
+<p>Dans le cas d'un CrossingEquipment créé à partir d'un obstacle, CrossingEquipment/MarkingStatus n'est pas renseigné.</p>
+<h3 id="crossingequipmentbumpcrossing">CrossingEquipment/BumpCrossing</h3>
+<p>CrossingEquipment/BumpCrossing est rempli à partir de la valeur de l'attribut TRAVERSEE.chausseeBombee.</p>
+<p>Dans le cas d'un CrossingEquipment créé à partir d'un obstacle, CrossingEquipment/BumpCrossing n'est pas renseigné.</p>
+<h3 id="crossingequipmentvisualobstacle">CrossingEquipment/VisualObstacle</h3>
+<p>CrossingEquipment/VisualObstacle est renseigné en utilisant l'attribut NOEUD_CHEMINEMENT.masqueCovisibilite des deux extrémités du tronçon de cheminement correspondant à la traversée, avec les règles de gestion suivantes :</p>
+<ul>
+<li>none si les deux extrémités ont masqueCovisibilite = aucun</li>
+<li>carParking si les deux extrémités ont masqueCovisibilite = stationnement voiture</li>
+<li>vegetation si les deux extrémités ont masqueCovisibilite = végétation</li>
+<li>building si les deux extrémités ont masqueCovisibilite = bâti</li>
+<li>streetFurniture si les deux extrémités ont masqueCovisibilite = mobilier urbain</li>
+<li>other si les deux extrémités n'ont pas la même valeur</li>
+</ul>
+<p>Dans le cas d'un CrossingEquipment créé à partir d'un obstacle, CrossingEquipment/VisualObstacle n'est pas renseigné.</p>
+<h2 id="rampequipment">RampEquipment</h2>
+<p>Un élément NeTEx RampEquipment est créé pour chaque rampe d'accès (RAMPE).</p>
+<h3 id="rampequipmentwidth">RampEquipment/Width</h3>
+<p>RampEquipment/Width est rempli avec de la valeur de l'attribut RAMPE.largeurUtile.</p>
+<h3 id="rampequipmentmaximumload">RampEquipment/MaximumLoad</h3>
+<p>RampEquipment/Width est rempli avec de la valeur de l'attribut RAMPE.poidsSupporte.</p>
+<h3 id="rampequipmentgradient">RampEquipment/Gradient</h3>
+<p>RampEquipment/Gradient est rempli à partir de la valeur de l'attribut TRONCON_CHEMINEMENT.pente du tronçon de cheminement correspondant à la rampe d'accès, après conversion des pourcentages en degrés (avec la même formule que pour SitePathLink/Gradient)</p>
+<h3 id="rampequipmentgradienttype">RampEquipment/GradientType</h3>
+<p>RampEquipment/GradientType est rempli à partir de la valeur de l'attribut TRONCON_CHEMINEMENT.pente du tronçon de cheminement correspondant à la rampe d'accès, avec les mêmes règles de gestion que SitePathLink/GradientType.</p>
+<h3 id="rampequipmenthandrailtype">RampEquipment/HandrailType</h3>
+<p>RampEquipment/HandrailType est rempli à partir de la valeur de l'attribut RAMPE.mainCourante avec les règles de gestion suivantes :</p>
+<ul>
+<li>none si mainCourante = aucun</li>
+<li>oneSide si mainCourante = à droite / à gauche / au milieu</li>
+<li>bothSides si mainCourante = des deux côtés</li>
+</ul>
+<h3 id="rampequipmenttemporary">RampEquipment/Temporary</h3>
+<p>RampEquipment/Temporary est rempli avec la valeur fixe "false" car seules les rampes permanentes sont gérées.</p>
+<h3 id="rampequipmentreststopdistance">RampEquipment/RestStopDistance</h3>
+<p>RampEquipment/RestStopDistance est rempli avec la valeur de l'attribut RAMPE.distPalierRepos.</p>
+<p>Cas particulier : si RAMPE.distPalierRepos vaut 9999 RampEquipment/RestStopDistance n'est pas renseigné.</p>
+<h3 id="rampequipmentsafetyedge">RampEquipment/SafetyEdge</h3>
+<p>RampEquipment/SafetyEdge est rempli à partir de la valeur de l'attribut RAMPE.chasseRoue avec les règles de gestion suivantes :</p>
+<ul>
+<li>none si chasseRoue = aucun</li>
+<li>oneSide si chasseRoue = à droite / à gauche / au milieu</li>
+<li>bothSides si chasseRoue = des deux côtés</li>
+</ul>
+<h3 id="rampequipmentturningspace">RampEquipment/TurningSpace</h3>
+<p>RampEquipment/TurningSpace est rempli à partir de la valeur de l'attribut RAMPE.aireRotation avec les règles de gestion suivantes :</p>
+<ul>
+<li>none si aireRotation = absence</li>
+<li>bottom si aireRotation = en bas</li>
+<li>top si aireRotation = en haut</li>
+<li>topAndBottom si aireRotation = en haut et en bas</li>
+</ul>
+<h2 id="escalatorequipment">EscalatorEquipment</h2>
+<p>Un élément NeTEx EscalatorEquipment est créé pour chaque escalator (ESCALATOR).</p>
+<h3 id="escalatorequipmentwidth">EscalatorEquipment/Width</h3>
+<p>EscalatorEquipment/Width est rempli avec de la valeur de l'attribut ESCALATOR.largeurUtile.</p>
+<h3 id="escalatorequipmentdirectionofuse">EscalatorEquipment/DirectionOfUse</h3>
+<p>EscalatorEquipment/DirectionOfUse est à partir de la valeur de l'attribut ESCALATOR.transition avec les règles de gestion suivantes :</p>
+<ul>
+<li>both si transition = variable</li>
+<li>up si transition = montée</li>
+<li>down si transition = descente</li>
+</ul>
+<h3 id="escalatorequipmenttactileactuators">EscalatorEquipment/TactileActuators</h3>
+<p>EscalatorEquipment/TactileActuators est rempli avec de la valeur de l'attribut ESCALATOR.detecteur.</p>
+<h3 id="escalatorequipmentmonitoringremotecontrol">EscalatorEquipment/MonitoringRemoteControl</h3>
+<p>EscalatorEquipment/MonitoringRemoteControl est rempli avec de la valeur de l'attribut ESCALATOR.supervision.</p>
+<h2 id="travelatorequipment">TravelatorEquipment</h2>
+<p>Un élément NeTEx TravelatorEquipment est créé pour chaque tapis roulant (TAPIS_ROULANT).</p>
+<h3 id="travelatorequipmentwidth">TravelatorEquipment/Width</h3>
+<p>TravelatorEquipment/Width est rempli avec de la valeur de l'attribut TAPIS_ROULANT.largeurUtile.</p>
+<h3 id="travelatorequipmentdirectionofuse">TravelatorEquipment/DirectionOfUse</h3>
+<p>TravelatorEquipment/DirectionOfUse est à partir de la valeur de l'attribut TAPIS_ROULANT.sens avec les règles de gestion suivantes :</p>
+<ul>
+<li>both si sens = variable</li>
+<li>up si sens = direct / indirect</li>
+</ul>
+<h3 id="travelatorequipmenttactileactuators">TravelatorEquipment/TactileActuators</h3>
+<p>TravelatorEquipment/TactileActuators est rempli avec de la valeur de l'attribut ESCALATOR.detecteur.</p>
+<h2 id="liftequipment">LiftEquipment</h2>
+<p>Un élément NeTEx LiftEquipment est créé pour chaque ascenseur (ASCENSEUR) et chaque élévateur (ELEVATEUR).</p>
+<p>Un élément NeTEx LiftEquipment est également créé pour chaque TRONCON_CHEMINEMENT.typetronçon = ascenseur. Dans ce cas, aucun attribut NeTEx n'est renseigné.</p>
+<h3 id="liftequipmentdepth">LiftEquipment/Depth</h3>
+<p>LiftEquipment/Depth est rempli avec de la valeur de l'attribut ASCENSEUR.longueurCabine ou ELEVATEUR.longueurPlateforme.</p>
+<div class="admonition info">
+<p class="admonition-title">Cas particulier</p>
+<p>Si l'attribut représentant la longueur de l'objet CNIG vaut 9999, on utilisera la valeur 1.25 à la place pour renseigner LiftEquipment/Depth.</p>
+</div>
+<h3 id="liftequipmentmaximumload">LiftEquipment/MaximumLoad</h3>
+<p>LiftEquipment/MaximumLoad est rempli avec de la valeur de l'attribut ELEVATEUR.chargeMaximum.</p>
+<p>Dans le cas d'un LiftEquipment créé à partir d'un ascenseur, LiftEquipment/MaximumLoad n'est pas renseigné.</p>
+<h3 id="liftequipmentwheelchairturningcircle">LiftEquipment/WheelchairTurningCircle</h3>
+<p>LiftEquipment/WheelchairTurningCircle est rempli avec de la valeur de l'attribut ASCENSEUR.diamManoeuvreFauteuil.</p>
+<p>Cas particulier : si ASCENSEUR.diamManoeuvreFauteuil a pour valeur 9999 LiftEquipment/WheelchairTurningCircle n'est pas renseigné.</p>
+<p>Dans le cas d'un LiftEquipment créé à partir d'un élévateur, LiftEquipment/WheelchairTurningCircle n'est pas renseigné.</p>
+<h3 id="liftequipmentinternalwidth">LiftEquipment/InternalWidth</h3>
+<p>LiftEquipment/InternalWidth est rempli avec de la valeur de l'attribut ASCENSEUR.largeurCabine ou ELEVATEUR.largeurPlateforme.</p>
+<p>Cas particulier : si les attributs CNIG ont pour valeur 9999 LiftEquipment/InternalWidth n'est pas renseigné.</p>
+<h3 id="liftequipmenthandrailtype">LiftEquipment/HandrailType</h3>
+<p>LiftEquipment/HandrailType est rempli à partir de la valeur de l'attribut ASCENSEUR.mainCourante avec les règles de gestion suivantes :</p>
+<ul>
+<li>none si mainCourante = aucun</li>
+<li>oneSide si mainCourante = à droite / à gauche / au milieu</li>
+<li>bothSides si mainCourante = des deux côtés</li>
+</ul>
+<p>Dans le cas d'un LiftEquipment créé à partir d'un élévateur, LiftEquipment/HandrailType n'est pas renseigné.</p>
+<h3 id="liftequipmenthandrailheight">LiftEquipment/HandrailHeight</h3>
+<p>LiftEquipment/HandrailHeight est rempli avec de la valeur de l'attribut ASCENSEUR.hauteurMainCourante.</p>
+<p>Cas particulier : si ASCENSEUR.hauteurMainCourante a pour valeur 9999 LiftEquipment/HandrailHeight n'est pas renseigné.</p>
+<p>Dans le cas d'un LiftEquipment créé à partir d'un élévateur, LiftEquipment/HandrailHeight n'est pas renseigné.</p>
+<h3 id="liftequipmentraisedbuttons">LiftEquipment/RaisedButtons</h3>
+<p>LiftEquipment/RaisedButtons est rempli à partir de la valeur de l'attribut ASCENSEUR.boutonsEnRelief ou ELEVATEUR.boutonsEnRelief avec les règles de gestion suivantes :</p>
+<ul>
+<li>true si boutonsEnRelief = touche 0 différenciée par relief supérieur / touche 0 de relief supérieur et autres touches en braille</li>
+<li>false si boutonsEnRelief = aucune touche différenciée</li>
+</ul>
+<h3 id="liftequipmentbraillebuttons">LiftEquipment/BrailleButtons</h3>
+<p>LiftEquipment/BrailleButtons est rempli à partir de la valeur de l'attribut ASCENSEUR.boutonsEnRelief ou ELEVATEUR.boutonsEnRelief avec les règles de gestion suivantes :</p>
+<ul>
+<li>true si boutonsEnRelief = touche 0 de relief supérieur et autres touches en braille</li>
+<li>false si boutonsEnRelief = aucune touche différenciée / touche 0 différenciée par relief supérieur</li>
+</ul>
+<h3 id="liftequipmentmirroronoppositeside">LiftEquipment/MirrorOnOppositeSide</h3>
+<p>LiftEquipment/MirrorOnOppositeSide est rempli avec de la valeur de l'attribut ASCENSEUR.miroir.</p>
+<p>Dans le cas d'un LiftEquipment créé à partir d'un élévateur, LiftEquipment/MirrorOnOppositeSide n'est pas renseigné.</p>
+<h3 id="liftequipmentattendant">LiftEquipment/Attendant</h3>
+<p>LiftEquipment/Attendant est rempli avec des valeurs des attributs ELEVATEUR.utilisableAutonomie et ELEVATEUR.accompagnateur avec les règles de gestion suivantes :</p>
+<ul>
+<li>true si utilisableAutonomie est faux ou si accompagnateur = permanent / temporaire</li>
+<li>false si utilisableAutonomie est vrai ou si accompagnateur = jamais</li>
+<li>non renseigné sinon</li>
+</ul>
+<h3 id="liftequipmentautomatic">LiftEquipment/Automatic</h3>
+<p>LiftEquipment/Automatic est rempli à partir de la valeur de l'attribut ASCENSEUR.typeOuverture ou ELEVATEUR.typeOuverture avec les règles de gestion suivantes :</p>
+<ul>
+<li>true si typeOuverture = automatique</li>
+<li>false si typeOuverture = manuelle / ouverture manuelle assistée mécaniquement</li>
+</ul>
+<h3 id="liftequipmentalarmbutton">LiftEquipment/AlarmButton</h3>
+<p>LiftEquipment/AlarmButton est rempli à partir de la valeur de l'attribut ASCENSEUR.voyantAlerte avec les règles de gestion suivantes :</p>
+<ul>
+<li>true si voyantAlerte = voyant demande secours enregistrée / voyant demande secours en transmission / les deux</li>
+<li>false si voyantAlerte = manuelle / ouverture manuelle assistée mécaniquement</li>
+</ul>
+<p>Dans le cas d'un LiftEquipment créé à partir d'un élévateur, LiftEquipment/AlarmButton n'est pas renseigné.</p>
+<h3 id="liftequipmentaudioannouncements">LiftEquipment/AudioAnnouncements</h3>
+<p>LiftEquipment/AudioAnnouncements est rempli à partir des valeurs des attributs ASCENSEUR.annonceSonore et ASCENSEUR.signalEtage avec les règles de gestion suivantes :</p>
+<ul>
+<li>true si annonceSonore est vrai ou si signalEtage = sonore / visuel et sonore / tactile et sonore / visuel et tactile et sonore</li>
+<li>false si annonceSonore est faux et signalEtage = aucun / visuel / tactile / visuel et tactile</li>
+</ul>
+<p>Dans le cas d'un LiftEquipment créé à partir d'un élévateur, LiftEquipment/AudioAnnouncements n'est pas renseigné.</p>
+<h3 id="liftequipmentreachedfloorannouncement">LiftEquipment/ReachedFloorAnnouncement</h3>
+<p>LiftEquipment/ReachedFloorAnnouncement est rempli à partir de la valeur de l'attribut ASCENSEUR.signalEtage avec les règles de gestion suivantes :</p>
+<ul>
+<li>none si signalEtage = aucun</li>
+<li>visual si signalEtage = visuel / visuel et tactile</li>
+<li>audio si signalEtage = sonore / tactile et sonore</li>
+<li>visualAndAudio si signalEtage = visuel et sonore</li>
+<li>tactile si signalEtage = tactile</li>
+<li>visualAndAudioAndTactile si signalEtage = visuel et tactile et sonore</li>
+</ul>
+<p>Dans le cas d'un LiftEquipment créé à partir d'un élévateur, LiftEquipment/ReachedFloorAnnouncement n'est pas renseigné.</p>
+<h3 id="liftequipmentmagneticinductionloop">LiftEquipment/MagneticInductionLoop</h3>
+<p>LiftEquipment/MagneticInductionLoop est rempli à partir de la valeur de l'attribut ASCENSEUR.boucleInducMagnet.</p>
+<p>Dans le cas d'un LiftEquipment créé à partir d'un élévateur, LiftEquipment/ReachedFloorAnnouncement n'est pas renseigné.</p>
+<h2 id="staircaseequipment">StaircaseEquipment</h2>
+<p>Un élément NeTEx StaircaseEquipment est créé pour chaque escalier (ESCALIER).</p>
+<p>Un élément NeTEx StaircaseEquipment est également créé pour chaque OBSTACLE avec typeObstacle = ressaut.</p>
+<h3 id="staircaseequipmentwidth">StaircaseEquipment/Width</h3>
+<p>StaircaseEquipment/Width est rempli avec de la valeur de l'attribut ESCALIER.largeurUtile ou OBSTACLE.largeurUtile.</p>
+<h3 id="staircaseequipmentnumberofsteps">StaircaseEquipment/NumberofSteps</h3>
+<p>StaircaseEquipment/NumberofSteps est rempli avec de la valeur de l'attribut ESCALIER.nbMarches.</p>
+<p>Dans le cas d'un StaircaseEquipment créé à partir d'un obstacle, StaircaseEquipment/NumberofSteps est rempli avec la valeur fixe 1.</p>
+<h3 id="staircaseequipmentstepheight">StaircaseEquipment/StepHeight</h3>
+<p>StaircaseEquipment/StepHeight est rempli avec de la valeur de l'attribut ESCALIER.hauteurMarche ou OBSTACLE.hauteurObsPoseSol.</p>
+<p>Cas particulier : si les attributs CNIG ont pour valeur 9999 StaircaseEquipment/StepHeight n'est pas renseigné.</p>
+<h3 id="staircaseequipmentsteplength">StaircaseEquipment/StepLength</h3>
+<p>StaircaseEquipment/StepLength est rempli avec de la valeur de l'attribut ESCALIER.giron ou OBSTACLE.longueurObstacle.</p>
+<p>Cas particulier : si les attributs CNIG ont pour valeur 9999 StaircaseEquipment/StepLength n'est pas renseigné.</p>
+<h3 id="staircaseequipmentstepcolourcontrast">StaircaseEquipment/StepColourContrast</h3>
+<p>StaircaseEquipment/StepColourContrast est rempli avec de la valeur de l'attribut ESCALIER.contrasteVisuel avec les règles de gestion suivantes :</p>
+<ul>
+<li>true si contrasteVisuel = bon état / dégradation sans gravité / dégradation entraînant une difficulté d'usage ou d'inconfort / dégradation entraînant un problème de sécurité immédiat</li>
+<li>false si contrasteVisuel = absence</li>
+</ul>
+<p>Dans le cas d'un StaircaseEquipment créé à partir d'un obstacle, StaircaseEquipment/StepColourContrast n'est pas renseigné.</p>
+<h3 id="staircaseequipmenthandrailtype">StaircaseEquipment/HandrailType</h3>
+<p>StaircaseEquipment/HandrailType est rempli à partir de la valeur de l'attribut ESCALIER.mainCourante avec les règles de gestion suivantes :</p>
+<ul>
+<li>none si mainCourante = aucun</li>
+<li>oneSide si mainCourante = à droite / à gauche / au milieu</li>
+<li>bothSides si mainCourante = des deux côtés</li>
+</ul>
+<p>Dans le cas d'un StaircaseEquipment créé à partir d'un obstacle, StaircaseEquipment/HandrailType n'est pas renseigné.</p>
+<h3 id="staircaseequipmenttopendcontinuinghandrail">StaircaseEquipment/TopEnd/ContinuingHandrail</h3>
+<p>StaircaseEquipment/TopEnd/ContinuingHandrail est rempli à partir de la valeur de l'attribut ESCALIER.prolongMainCourante avec les règles de gestion suivantes :</p>
+<ul>
+<li>none si prolongMainCourante = aucun</li>
+<li>oneSide si prolongMainCourante = à droite / à gauche / au milieu</li>
+<li>bothSides si prolongMainCourante = des deux côtés</li>
+</ul>
+<p>Dans le cas d'un StaircaseEquipment créé à partir d'un obstacle, StaircaseEquipment/TopEnd/ContinuingHandrail n'est pas renseigné.</p>
+<h3 id="staircaseequipmenttopendtexturedsurface">StaircaseEquipment/TopEnd/TexturedSurface</h3>
+<p>StaircaseEquipment/TopEnd/TexturedSurface est rempli à partir de la valeur de l'attribut ESCALIER.dispositifVigilance avec les règles de gestion suivantes :</p>
+<ul>
+<li>true si dispositifVigilance = absence</li>
+<li>false si dispositifVigilance = bon état / dégradation sans gravité / dégradation entraînant une difficulté d'usage ou d'inconfort / dégradation entraînant un problème de sécurité immédiat</li>
+</ul>
+<p>Dans le cas d'un StaircaseEquipment créé à partir d'un obstacle, StaircaseEquipment/TopEnd/TexturedSurface est faux.</p>
+<h3 id="staircaseequipmentbottomendcontinuinghandrail">StaircaseEquipment/BottomEnd/ContinuingHandrail</h3>
+<p>StaircaseEquipment/BottomEnd/ContinuingHandrail est rempli à partir de la valeur de l'attribut ESCALIER.prolongMainCourante avec les règles de gestion suivantes :</p>
+<ul>
+<li>none si prolongMainCourante = aucun</li>
+<li>oneSide si prolongMainCourante = à droite / à gauche / au milieu</li>
+<li>bothSides si prolongMainCourante = des deux côtés</li>
+</ul>
+<p>Dans le cas d'un StaircaseEquipment créé à partir d'un obstacle, StaircaseEquipment/BottomEnd/ContinuingHandrail n'est pas renseigné.</p>
+<h3 id="staircaseequipmentcontinuoushandrail">StaircaseEquipment/ContinuousHandrail</h3>
+<p>StaircaseEquipment/ContinuousHandrail est rempli à partir de la valeur de l'attribut ESCALIER.mainCouranteContinue avec les règles de gestion suivantes :</p>
+<ul>
+<li>none si mainCouranteContinue = aucun</li>
+<li>oneSide si mainCouranteContinue = à droite / à gauche / au milieu</li>
+<li>bothSides si mainCouranteContinue = des deux côtés</li>
+</ul>
+<p>Dans le cas d'un StaircaseEquipment créé à partir d'un obstacle, StaircaseEquipment/ContinuousHandrail n'est pas renseigné.</p>
+<h3 id="staircaseequipmentnumberofflights">StaircaseEquipment/NumberOfFlights</h3>
+<p>StaircaseEquipment/NumberOfFlights est rempli avec de la valeur de l'attribut ESCALIER.nbVoleeMarches.</p>
+<p>Dans le cas d'un StaircaseEquipment créé à partir d'un obstacle, StaircaseEquipment/NumberOfFlights n'est pas renseigné.</p>
+<h2 id="entranceequipment">EntranceEquipment</h2>
+<p>Un élément NeTEx EntranceEquipment est créé pour chaque entrée (ENTREE).</p>
+<h3 id="entranceequipmentwidth">EntranceEquipment/Width</h3>
+<p>EntranceEquipment/Width est rempli avec de la valeur de l'attribut ENTREE.largeurPassage.</p>
+<div class="admonition info">
+<p class="admonition-title">Cas particulier</p>
+<p>Si l'attribut ENTREE.largeurPassage de l'objet CNIG vaut 9999, on utilisera la valeur 0.80 à la place pour renseigner EntranceEquipment/Width.</p>
+</div>
+<h3 id="entranceequipmentdoorhandleoutside">EntranceEquipment/DoorHandleOutside</h3>
+<p>EntranceEquipment/DoorHandleOutside est rempli à partir de la valeur de l'attribut ENTREE.typePoignée avec les règles de gestion suivantes :</p>
+<ul>
+<li>lever si typePoignée = béquille</li>
+<li>button si typePoignée = bouton</li>
+<li>grabRail si typePoignée = poignée de tirage</li>
+<li>windowLever si typePoignée = levier de fenêtre</li>
+<li>vertical si typePoignée = bâton maréchal</li>
+<li>other sinon</li>
+</ul>
+<h3 id="entranceequipmentdoorhandleinside">EntranceEquipment/DoorHandleInside</h3>
+<p>EntranceEquipment/DoorHandleInside est rempli à partir de la valeur de l'attribut ENTREE.typePoignée avec les règles de gestion suivantes :</p>
+<ul>
+<li>lever si typePoignée = béquille</li>
+<li>button si typePoignée = bouton</li>
+<li>grabRail si typePoignée = poignée de tirage</li>
+<li>windowLever si typePoignée = levier de fenêtre</li>
+<li>vertical si typePoignée = bâton maréchal</li>
+<li>other sinon</li>
+</ul>
+<h3 id="entranceequipmentrevolvingdoor">EntranceEquipment/RevolvingDoor</h3>
+<p>EntranceEquipment/RevolvingDoor est rempli à partir de la valeur de l'attribut ENTREE.typePorte avec les règles de gestion suivantes :</p>
+<ul>
+<li>true si typePorte = porte tambour</li>
+<li>false si typePorte a une autre valeur </li>
+</ul>
+<h3 id="entranceequipmentdropkerboutside">EntranceEquipment/DropKerbOutside</h3>
+<p>EntranceEquipment/DropKerbOutside est rempli à partir de la valeur de l'attribut NOEUD_CHEMINEMENT.hauteurRessaut du nœud de cheminement correspondant à l'entrée avec les règles de gestion suivantes :</p>
+<ul>
+<li>true si hauteurRessaut inférieur ou égal à 2 cm</li>
+<li>false sinon</li>
+</ul>
+<h3 id="entranceequipmentautomaticdoor">EntranceEquipment/AutomaticDoor</h3>
+<p>EntranceEquipment/AutomaticDoor est rempli à partir de la valeur de l'attribut ENTREE.typeOuverture avec les règles de gestion suivantes :</p>
+<ul>
+<li>true si typeOuverture = automatique</li>
+<li>false si typeOuverture = manuelle / ouverture manuelle assistée mécaniquement</li>
+</ul>
+<h3 id="entranceequipmentglassdoor">EntranceEquipment/GlassDoor</h3>
+<p>EntranceEquipment/GlassDoor est rempli à partir de la valeur de l'attribut ENTREE.reperageEltsVitres avec les règles de gestion suivantes :</p>
+<ul>
+<li>true si reperageEltsVitres est vrai</li>
+<li>non renseigné sinon</li>
+</ul>
+<h3 id="entranceequipmentaudioorvideointercom">EntranceEquipment/AudioOrVideoIntercom</h3>
+<p>EntranceEquipment/AudioOrVideoIntercom est rempli à partir de la valeur de l'attribut ENTREE.controleAcces avec les règles de gestion suivantes :</p>
+<ul>
+<li>true si controleAcces = bouton d’appel / interphone / visiophone / boucle à induction magnétique</li>
+<li>false si controleAcces = absence</li>
+</ul>
+<h3 id="entranceequipmententranceattention">EntranceEquipment/EntranceAttention</h3>
+<p>EntranceEquipment/EntranceAttention est rempli à partir de la valeur de l'attribut ENTREE.controleAcces avec les règles de gestion suivantes :</p>
+<ul>
+<li>none si controleAcces = absence</li>
+<li>doorbell si controleAcces = bouton d’appel</li>
+<li>intercom si controleAcces = interphone / visiophone / boucle à induction magnétique</li>
+</ul>
+<h3 id="entranceequipmentdoorstepmark">EntranceEquipment/DoorstepMark</h3>
+<p>EntranceEquipment/DoorstepMark est rempli à partir de la valeur de l'attribut NOEUD_CHEMINEMENT.bandeEveilVigilance du nœud de cheminement correspondant à l'entrée avec les règles de gestion suivantes :</p>
+<ul>
+<li>true si bandeEveilVigilance = bon état / dégradation sans gravité / dégradation entraînant une difficulté d'usage ou d'inconfort / dégradation entraînant un problème de sécurité immédiat</li>
+<li>false si bandeEveilVigilance = absence</li>
+</ul>
+<h3 id="entranceequipmentnecessaryforcetoopen">EntranceEquipment/NecessaryForceToOpen</h3>
+<p>EntranceEquipment/NecessaryForceToOpen est rempli à partir de la valeur de l'attribut ENTREE.effortOuverture avec les règles de gestion suivantes :</p>
+<ul>
+<li>heavyForce si effortOuverture &gt; 50 N</li>
+<li>mediumForce si effortOuverture est entre 20 et 50</li>
+<li>lightForce si effortOuverture &lt; 20</li>
+<li>noForce si effortOuverture = 0</li>
+<li>noForce si effortOuverture n'est pas renseigné mais que typeOuverture = automatique</li>
+<li>unknown sinon</li>
+</ul>
+<h3 id="entranceequipmentrampdoorbell">EntranceEquipment/RampDoorbell</h3>
+<p>EntranceEquipment/RampDoorbell est rempli avec de la valeur de l'attribut ENTREE.rampeSonnette.</p>
+<h3 id="entranceequipmentrecognizable">EntranceEquipment/Recognizable</h3>
+<p>EntranceEquipment/Recognizable est rempli avec de la valeur de l'attribut ENTREE.reperabilite.</p>
+<h3 id="entranceequipmentturningspaceposition">EntranceEquipment/TurningSpacePosition</h3>
+<p>EntranceEquipment/TurningSpacePosition est rempli à partir de la valeur de l'attribut ENTREE.espaceManœuvre avec les règles de gestion suivantes :</p>
+<ul>
+<li>none si espaceManœuvre = absence</li>
+<li>inside si espaceManœuvre = intérieur</li>
+<li>outside si espaceManœuvre = extérieur</li>
+<li>insideAndOutside si espaceManœuvre = intérieur et extérieur</li>
+</ul>
+<h3 id="entranceequipmentwheelchairturningcircle">EntranceEquipment/WheelchairTurningCircle</h3>
+<p>EntranceEquipment/WheelchairTurningCircle est rempli avec la plus petite valeur des attributs suivants :</p>
+<ul>
+<li>ENTREE.largManœuvreExt</li>
+<li>ENTREE.longManœuvreExt</li>
+<li>ENTREE.largManœuvreInt</li>
+<li>ENTREE.longManœuvreInt</li>
+</ul>
+<p>Cas particulier : si tous ces attributs ont pour valeur 9999, la valeur 1.80 sera utilisée à la place pour remplir EntranceEquipment/WheelchairTurningCircle.</p>
+<h2 id="queueingequipment">QueueingEquipment</h2>
+<p>Un élément NeTEx RoughSurface est créé pour chaque TRONCON_CHEMINEMENT avec typetronçon = gestion de queue. Aucun attribut NeTEx n'est renseigné.</p>
+<h2 id="roughsurface">RoughSurface</h2>
+<p>Un élément NeTEx RoughSurface est créé pour chaque obstacle avec typeObstacle = surface irrégulière.</p>
+<h3 id="roughsurfacewidth">RoughSurface/Width</h3>
+<p>RoughSurface/Width est rempli avec de la valeur de l'attribut OBSTACLE.largeurUtile.</p>
+<p>Cas particulier : si OBSTACLE.largeurUtile=9999 la valeur 1.80 sera utilisée à la place.</p>
+<h3 id="roughsurfacesurfacetype">RoughSurface/SurfaceType</h3>
+<p>RoughSurface/SurfaceType est rempli avec la valeur fixe other.</p>
+<h2 id="assistanceservice">AssistanceService</h2>
+<p>Un élément NeTEx AssistanceService est créé pour chaque ERP pour représenter son accueil.</p>
+<h3 id="assistanceserviceassistancefacilitylist">AssistanceService/AssistanceFacilityList</h3>
+<p>AssistanceService/AssistanceFacilityList est rempli avec la valeur fixe "information".</p>
+<h3 id="assistanceservicestaffing">AssistanceService/Staffing</h3>
+<p>AssistanceService/Staffing est rempli avec la valeur de l'attribut ERP.accueilPersonnel avec les règles de gestion suivantes :</p>
+<ul>
+<li>unmanned si ERP.accueilPersonnel = absence de personnel</li>
+<li>non renseigné sinon</li>
+</ul>
+<h3 id="assistanceserviceaccessibilitytrainedstaff">AssistanceService/AccessibilityTrainedStaff</h3>
+<p>AssistanceService/AccessibilityTrainedStaff est rempli avec la valeur de l'attribut ERP.accueilPersonnel avec les règles de gestion suivantes :</p>
+<ul>
+<li>true si ERP.accueilPersonnel = personnel formé à l’accueil des publics spécifiques</li>
+<li>false si ERP.accueilPersonnel = personnel non-formé à l’accueil des publics spécifiques</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Pied de page" >
+        
+          
+          <a href="../" class="md-footer__link md-footer__link--prev" aria-label="Précédent: CNIG vers NeTEx">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Précédent
+              </span>
+              <div class="md-ellipsis">
+                CNIG vers NeTEx
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../parking/" class="md-footer__link md-footer__link--next" aria-label="Suivant: Fichier parking.xml">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Suivant
+              </span>
+              <div class="md-ellipsis">
+                Fichier parking.xml
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+      <div class="md-consent" data-md-component="consent" id="__consent" hidden>
+        <div class="md-consent__overlay"></div>
+        <aside class="md-consent__inner">
+          <form class="md-consent__form md-grid md-typeset" name="consent">
+            
+
+
+
+<h4></h4>
+<p></p>
+<input class="md-toggle" type="checkbox" id="__settings" >
+<div class="md-consent__settings">
+  <ul class="task-list">
+    
+    
+      
+    
+    
+      
+        
+  
+  
+    
+    
+  
+  <li class="task-list-item">
+    <label class="task-list-control">
+      <input type="checkbox" name="github" checked>
+      <span class="task-list-indicator"></span>
+      GitHub
+    </label>
+  </li>
+
+      
+    
+    
+  </ul>
+</div>
+<div class="md-consent__controls">
+  
+    
+      <button class="md-button md-button--primary">Accepter</button>
+    
+    
+    
+  
+    
+    
+      <button type="reset" class="md-button md-button--primary">Refuser</button>
+    
+    
+  
+    
+    
+    
+      <label class="md-button" for="__settings">Paramétrer vos choix</label>
+    
+  
+</div>
+          </form>
+        </aside>
+      </div>
+      <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout((function(){document.querySelector("[data-md-component=consent]").hidden=!1}),250);var form=document.forms.consent;for(var action of["submit","reset"])form.addEventListener(action,(function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map((function(e){return[e,!0]})))),location.hash="",location.reload()}))</script>
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.indexes", "navigation.footer"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+    
+  </body>
+</html>
