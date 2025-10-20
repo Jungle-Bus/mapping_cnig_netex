@@ -224,7 +224,12 @@ Si le TRONCON_CHEMINEMENT est une CIRCULATION, SitePathLink/Lighting est rempli 
 
 Si le TRONCON_CHEMINEMENT est une TRAVERSEE, SitePathLink/Lighting est rempli à partir de l'attribut TRAVERSEE.eclairage de l'objet TRAVERSEE correspondant au TRONCON_CHEMINEMENT courant avec les mêmes règles de gestion.
 
-Si le TRONCON_CHEMINEMENT est un ASCENSEUR, SitePathLink/Lighting est rempli à partir de l'attribut TRAVERSEE.eclairage de l'objet ASCENSEUR correspondant au TRONCON_CHEMINEMENT courant : TODO
+Si le TRONCON_CHEMINEMENT est un ASCENSEUR, SitePathLink/Lighting est rempli à partir de l'attribut TRAVERSEE.eclairage de l'objet ASCENSEUR correspondant au TRONCON_CHEMINEMENT courant :
+
+- wellLit si eclairage est supérieur ou égal à 150 lux
+- poorlyLit si eclairage est entre 100 et 150 lux
+- unlit si eclairage est strictiement inférieur à 100 lux
+- unknown si non renseigné
 
 Sinon, l'élément SitePathLink/Lighting est absent.
 
@@ -942,17 +947,13 @@ Cas particulier : si tous ces attributs ont pour valeur 9999, la valeur 1.80 ser
 
 ## QueueingEquipment
 
-Un élément NeTEx RoughSurface est créé pour chaque TRONCON_CHEMINEMENT avec typetronçon = gestion de queue. Aucun attribut NeTEx n'est renseigné.
+Un élément NeTEx QueueingEquipment est créé pour chaque TRONCON_CHEMINEMENT avec typetronçon = gestion de queue. 
+
+Aucun attribut NeTEx n'est renseigné.
 
 ## RoughSurface
 
 Un élément NeTEx RoughSurface est créé pour chaque obstacle avec typeObstacle = surface irrégulière.
-
-### RoughSurface/Width
-
-RoughSurface/Width est rempli avec de la valeur de l'attribut OBSTACLE.largeurUtile.
-
-Cas particulier : si OBSTACLE.largeurUtile=9999 la valeur 1.80 sera utilisée à la place.
 
 ### RoughSurface/SurfaceType
 
