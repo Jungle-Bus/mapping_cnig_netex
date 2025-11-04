@@ -17,7 +17,7 @@ Dans l'exemple suivant représentant un *TravelatorEquipment* :
 
 `TravelatorEquipment/PublicCode` représente l'élément `PublicCode`, contenu dans l'élément TravelatorEquipment. Dans cette documentation, on pourra parler de l'attribut NeTEx PublicCode de l'objet TravelatorEquipment, mais il ne s'agira ici pas de l'attribut au sens xml mais au sens modèle de données.
 
-Le standard CNIG Accessibilité sur des classes d'objets disponsant chacune d'attributs.
+Le standard CNIG Accessibilité s'appuie sur des classes d'objets disposant chacune d'attributs.
 
 TAPIS_ROULANT.idTapisRoulant représente l'attribut idTapisRoulant de la classe d'objet TAPIS_ROULANT
 

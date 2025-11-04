@@ -11,6 +11,10 @@ En particulier, on y trouve :
 
 Un élément NeTEx PointOfInterest est créé pour chaque établissement recevant du public ou installation ouverte au public (ERP).
 
+### PointOfInterest/Name
+
+PointOfInterest/Name est rempli avec la valeur de ERP.nom.
+
 ### PointOfInterest/Centroid/Location
 
 PointOfInterest/Centroid/Location est construit à partir des attributs ERP.latitude et ERP.longitude.
@@ -146,7 +150,7 @@ PointOfInterestEntrance/placeEquipments contient une référence vers l'Entrance
 
 ### PointOfInterestEntrance/EntranceType
 
-PointOfInterestEntrance/EntranceType est rempli à partir de la valeur de l'attribut ENTREE.typePorte ou ENTREE.typePorte avec les règles de gestion suivantes :
+PointOfInterestEntrance/EntranceType est rempli à partir de la valeur de l'attribut ENTREE.typePorte ou ENTREE.typeOuverture avec les règles de gestion suivantes :
 
 - gate si typePorte = portail
 - automaticDoor si typeOuverture = automatique

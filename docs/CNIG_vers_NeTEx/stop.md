@@ -64,7 +64,7 @@ StopPlaceEntrance/placeEquipments contient une référence vers l'EntranceEquipm
 
 ### StopPlaceEntrance/EntranceType
 
-StopPlaceEntrance/EntranceType est rempli à partir de la valeur de l'attribut ENTREE.typePorte ou ENTREE.typePorte avec les règles de gestion suivantes :
+StopPlaceEntrance/EntranceType est rempli à partir de la valeur de l'attribut ENTREE.typePorte ou ENTREE.typeOuverture avec les règles de gestion suivantes :
 
 - gate si typePorte = portail
 - automaticDoor si typeOuverture = automatique

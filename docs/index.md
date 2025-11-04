@@ -2,7 +2,7 @@
 
 !!! warning "Attention"
 
-    Cette documentation est un brouillon temporaire non officiel.
+    Cette documentation est un brouillon temporaire non officiel. En attendant sa finalisation, voici [la dernière version publiée](https://github.com/Jungle-Bus/mapping_cnig_netex/releases/download/v1.0/Wegoto_DGMINT_ReglesConversions_CNIG-NeTEx_1.0.pdf).
 
 L'objectif de cette documentation est de fournir des règles de conversion entre les données au format du standard CNIG Accessibilité et les données au format NeTEx profil France (principalement Accessibilité).
 

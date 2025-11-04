@@ -171,7 +171,7 @@ Si le TRONCON_CHEMINEMENT est une TRAVERSEE, AudibleSignalsAvailable est rempli 
 - false si TRAVERSEE.aideSonore = absence
 - true si TRAVERSEE.aideSonore = bon état / dégradation sans gravité
 - partial si TRAVERSEE.aideSonore = dégradation entraînant une difficulté d'usage ou d'inconfort. Dans ce cas, on ajoute à la liste des phrases utilisées pour constituer AccessibilityAssessment/validityConditions/ValidityCondition/Description la phrase suivante : "Répétiteurs sonores avec dégradation entraînant une difficulté d’usage ou d’inconfort"
-- partia si TRAVERSEE.aideSonore = dégradation entraînant un problème de sécurité immédiat. Dans ce cas, on ajoute à la liste des phrases utilisées pour constituer AccessibilityAssessment/validityConditions/ValidityCondition/Description la phrase suivante : "Répétiteurs sonores avec dégradation entraînant un problème de sécurité immédiat"
+- partial si TRAVERSEE.aideSonore = dégradation entraînant un problème de sécurité immédiat. Dans ce cas, on ajoute à la liste des phrases utilisées pour constituer AccessibilityAssessment/validityConditions/ValidityCondition/Description la phrase suivante : "Répétiteurs sonores avec dégradation entraînant un problème de sécurité immédiat"
 - unknown sinon
 
 Sinon, AudibleSignalsAvailable n'est pas renseigné.
@@ -518,7 +518,7 @@ RampEquipment/Width est rempli avec de la valeur de l'attribut RAMPE.largeurUtil
 
 ### RampEquipment/MaximumLoad
 
-RampEquipment/Width est rempli avec de la valeur de l'attribut RAMPE.poidsSupporte.
+RampEquipment/MaximumLoad est rempli avec de la valeur de l'attribut RAMPE.poidsSupporte.
 
 ### RampEquipment/Gradient
 
@@ -604,7 +604,7 @@ TravelatorEquipment/DirectionOfUse est à partir de la valeur de l'attribut TAPI
 
 ### TravelatorEquipment/TactileActuators
 
-TravelatorEquipment/TactileActuators est rempli avec de la valeur de l'attribut ESCALATOR.detecteur.
+TravelatorEquipment/TactileActuators est rempli avec de la valeur de l'attribut TAPIS_ROULANT.detecteur.
 
 ## LiftEquipment
 
