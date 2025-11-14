@@ -224,7 +224,7 @@ Si le TRONCON_CHEMINEMENT est une CIRCULATION, SitePathLink/Lighting est rempli 
 
 Si le TRONCON_CHEMINEMENT est une TRAVERSEE, SitePathLink/Lighting est rempli à partir de l'attribut TRAVERSEE.eclairage de l'objet TRAVERSEE correspondant au TRONCON_CHEMINEMENT courant avec les mêmes règles de gestion.
 
-Si le TRONCON_CHEMINEMENT est un ASCENSEUR, SitePathLink/Lighting est rempli à partir de l'attribut TRAVERSEE.eclairage de l'objet ASCENSEUR correspondant au TRONCON_CHEMINEMENT courant :
+Si le TRONCON_CHEMINEMENT est un ASCENSEUR, SitePathLink/Lighting est rempli à partir de l'attribut ASCENSEUR.eclairage de l'objet ASCENSEUR correspondant au TRONCON_CHEMINEMENT courant :
 
 - wellLit si eclairage est supérieur ou égal à 150 lux
 - poorlyLit si eclairage est entre 100 et 150 lux
@@ -714,7 +714,7 @@ LiftEquipment/Automatic est rempli à partir de la valeur de l'attribut ASCENSEU
 LiftEquipment/AlarmButton est rempli à partir de la valeur de l'attribut ASCENSEUR.voyantAlerte avec les règles de gestion suivantes :
 
 - true si voyantAlerte = voyant demande secours enregistrée / voyant demande secours en transmission / les deux
-- false si voyantAlerte = manuelle / ouverture manuelle assistée mécaniquement
+- false si voyantAlerte = aucun
 
 Dans le cas d'un LiftEquipment créé à partir d'un élévateur, LiftEquipment/AlarmButton n'est pas renseigné.
 

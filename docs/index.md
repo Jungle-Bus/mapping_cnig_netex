@@ -4,17 +4,13 @@
 
     Cette documentation est un brouillon temporaire non officiel. En attendant sa finalisation, voici [la dernière version publiée](https://github.com/Jungle-Bus/mapping_cnig_netex/releases/download/v1.0/Wegoto_DGMINT_ReglesConversions_CNIG-NeTEx_1.0.pdf).
 
-L'objectif de cette documentation est de fournir des règles de conversion entre les données au format du standard CNIG Accessibilité et les données au format NeTEx profil France (principalement Accessibilité).
+L'objectif de cette documentation est de fournir des règles de conversion entre les données au format du standard CNIG Accessibilité et les données au format NeTEx profil France (principalement la partie Accessibilité du profil).
 
-!!! question "CNIG ? "
+Le [standard CNIG Accessibilité du cheminement en voirie](https://cnig.gouv.fr/ressources-accessibilite-a25335.html) est un modèle de donnée qui définit les objets et les attributs que les collectivités territoriales doivent publier afin de faciliter les déplacements des personnes à mobilité réduite. Il a été élaboré par le groupe de travail sur l'accessibilité du CNIG. Le Conseil national de l'information géographique (CNIG) est une instance consultative qui coordonne et accompagne l'évolution de l'information géolocalisée en France.
 
-    Le Conseil national de l'information géographique (CNIG) est une instance consultative qui coordonne et accompagne l'évolution de l'information géolocalisée en France. Son groupe de travail sur l'accessibilité a élaboré un [standard d'échange de données](https://cnig.gouv.fr/ressources-accessibilite-a25335.html) pour définir les objets et les attributs que les collectivités territoriales doivent publier afin de faciliter les déplacements des personnes à mobilité réduite. Le format d'échange de ces données est le [profil NeTEx pour l'accessibilité](https://normes.transport.data.gouv.fr/normes/netex/accessibilit%C3%A9/).
+[NeTEx](https://transmodel-cen.eu/index.php/netex/) (Network Timetable Exchange) est une norme européenne pour le partage d'informations de transport public sous forme de documents XML. En complément de la norme NeTEx, le [profil France](https://normes.transport.data.gouv.fr/) vient compléter et expliciter l'interprétation et les attributs retenus pour le partage de données en France.
 
-!!! question "NeTEx ?"
-
-    [NeTEx](https://transmodel-cen.eu/index.php/netex/) (Network Timetable Exchange) est une norme européenne pour le partage d'informations de transport public sous forme de documents XML. En complément de la norme NeTEx, les [profils France](https://normes.transport.data.gouv.fr/) viennent compléter et expliciter l'interprétation et les attributs retenus pour le partage de données en France.
-
-    Le [profil accessibilité](https://normes.transport.data.gouv.fr/normes/netex/accessibilit%C3%A9/) est le format d'échange qui a été retenu dans le cadre réglementaire en France pour publier des données d'accessibilité à la fois pour la voirie et pour les transports.
+La [partie accessibilité du profil France](https://normes.transport.data.gouv.fr/normes/netex/accessibilit%C3%A9/) décrit le format d'échange qui a été retenu dans le cadre réglementaire en France pour publier des données d'accessibilité à la fois pour la voirie et pour les transports.
 
 ## Liens utiles
 
