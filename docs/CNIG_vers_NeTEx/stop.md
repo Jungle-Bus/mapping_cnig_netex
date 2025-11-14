@@ -22,6 +22,10 @@ Un élément NeTEx StopPlaceEntrance est créé pour chaque entrée d'ERP avec E
 
 StopPlaceEntrance/Centroid/Location est construit à partir de la géométrie du nœud de cheminement correspondant à l'entrée. Une géométrie ponctuelle est attendue.
 
+### StopPlaceEntrance/PostalAddress/AddressLine1
+
+StopPlaceEntrance/PostalAddress/AddressLine1 est rempli avec la valeur de l'attribut ENTREE.adresse.
+
 ### StopPlaceEntrance/AccessibilityAssessment
 
 Les **AccessibilityLimitation** suivants sont présents :
@@ -53,6 +57,15 @@ TactileGuidanceAvailable est rempli à l'aide des règles de gestion suivantes :
 - true s'il y a un CHEMINEMENT_ERP qui part ou arrive à l'entrée avec CHEMINEMENT_ERP.sysGuidTactile vrai
 - false si l'entrée correspond à un nœud de cheminement qui est l'extrémité d'un tronçon de cheminement qui est une circulation et CIRCULATION.repereLineaire = aucun et aucun CHEMINEMENT_ERP qui part ou arrive à l'entrée n'a CHEMINEMENT_ERP.sysGuidTactile vrai
 - unknown sinon
+
+### StopPlaceEntrance/Lighting
+
+StopPlaceEntrance/Lighting est rempli avec ENTREE.eclairage avec les règles de gestion suivantes :
+
+- wellLit si eclairage est supérieur ou égal à 150 lux
+- poorlyLit si eclairage est entre 100 et 150 lux
+- unlit si eclairage est strictiement inférieur à 100 lux
+- unknown si non renseigné
 
 ### StopPlaceEntrance/SiteRef
 
