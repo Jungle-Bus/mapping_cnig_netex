@@ -433,6 +433,10 @@ Un élément NeTEx CrossingEquipment est créé pour chaque traversée (TRAVERSE
 
 Un élément NeTEx CrossingEquipment est également créé pour chaque OBSTACLE avec typeObstacle = traversée de piste cyclable.
 
+### CrossingEquipment/Image
+
+CrossingEquipment/Image est rempli avec la valeur de l'attribut TRONCON_CHEMINEMENT.urlMedia du tronçon de cheminement correspondant à la traversée, ou avec OBSTACLE.urlMedia.
+
 ### CrossingEquipment/ZebraCrossing
 
 CrossingEquipment/ZebraCrossing est rempli à partir de la valeur de l'attribut TRAVERSEE.typeMarquage :
@@ -512,6 +516,10 @@ Dans le cas d'un CrossingEquipment créé à partir d'un obstacle, CrossingEquip
 
 Un élément NeTEx RampEquipment est créé pour chaque rampe d'accès (RAMPE).
 
+### RampEquipment/Image
+
+RampEquipment/Image est rempli avec la valeur de l'attribut TRONCON_CHEMINEMENT.urlMedia du tronçon de cheminement correspondant à la rampe d'accès.
+
 ### RampEquipment/Width
 
 RampEquipment/Width est rempli avec de la valeur de l'attribut RAMPE.largeurUtile.
@@ -567,6 +575,10 @@ RampEquipment/TurningSpace est rempli à partir de la valeur de l'attribut RAMPE
 
 Un élément NeTEx EscalatorEquipment est créé pour chaque escalator (ESCALATOR).
 
+### EscalatorEquipment/Image
+
+EscalatorEquipment/Image est rempli avec la valeur de l'attribut TRONCON_CHEMINEMENT.urlMedia du tronçon de cheminement correspondant à l'escalator.
+
 ### EscalatorEquipment/Width
 
 EscalatorEquipment/Width est rempli avec de la valeur de l'attribut ESCALATOR.largeurUtile.
@@ -590,6 +602,10 @@ EscalatorEquipment/MonitoringRemoteControl est rempli avec de la valeur de l'att
 ## TravelatorEquipment
 
 Un élément NeTEx TravelatorEquipment est créé pour chaque tapis roulant (TAPIS_ROULANT).
+
+### TravelatorEquipment/Image
+
+TravelatorEquipment/Image est rempli avec la valeur de l'attribut TRONCON_CHEMINEMENT.urlMedia du tronçon de cheminement correspondant au tapis roulant.
 
 ### TravelatorEquipment/Width
 
@@ -735,6 +751,10 @@ Dans le cas d'un LiftEquipment créé à partir d'un élévateur, LiftEquipment/
 Un élément NeTEx StaircaseEquipment est créé pour chaque escalier (ESCALIER).
 
 Un élément NeTEx StaircaseEquipment est également créé pour chaque OBSTACLE avec typeObstacle = ressaut.
+
+### StaircaseEquipment/Image
+
+StaircaseEquipment/Image est rempli avec la valeur de l'attribut TRONCON_CHEMINEMENT.urlMedia du tronçon de cheminement correspondant à l'escalier, avec OBSTACLE.urlMedia.
 
 ### StaircaseEquipment/Width
 
@@ -947,7 +967,7 @@ Cas particulier : si tous ces attributs ont pour valeur 9999, la valeur 1.80 ser
 
 ## QueueingEquipment
 
-Un élément NeTEx QueueingEquipment est créé pour chaque TRONCON_CHEMINEMENT avec typetronçon = gestion de queue. 
+Un élément NeTEx QueueingEquipment est créé pour chaque TRONCON_CHEMINEMENT avec typetronçon = gestion de queue.
 
 Aucun attribut NeTEx n'est renseigné.
 
