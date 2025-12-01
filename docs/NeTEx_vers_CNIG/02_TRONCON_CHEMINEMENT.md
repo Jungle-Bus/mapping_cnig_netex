@@ -20,6 +20,8 @@ On utilisera la géométrie de l'objet NeTEx (en général SitePathLink/gml:Line
 
     En effet, il s'agit d'objets réprésentant un déplacement uniquement vertical en utilisant un ascenseur ou un élévateur, ce qui n'est pas modélisé par un TRONCON_CHEMINEMENT dans le standard CNIG.
 
+    [Voir l'annexe sur la modélisation des ascenseurs pour en savoir plus](../annexe_ascenseurs.md).
+
 ## idTroncon
 
 TRONCON_CHEMINEMENT.idTroncon peut être construit à partir de l'identifiant de l'objet NeTEx (SitePathLink/@id) en utilisant la codification des identifiants du standard CNIG.

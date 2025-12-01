@@ -17,6 +17,7 @@ extra:
 
 markdown_extensions:
   - admonition
+  - pymdownx.superfences
 
 theme:
   name: material
@@ -28,3 +29,35 @@ theme:
     scheme: default
     primary: indigo
     accent: amber
+
+nav:
+  - Accueil: 'index.md'
+  - Suivi des modification: 'changelog.md'
+  - Conventions de représentations: 'conventions.md'
+  - CNIG vers NeTEx:
+    - CNIG_vers_NeTEx/index.md
+    - CNIG_vers_NeTEx/accessibility.md
+    - CNIG_vers_NeTEx/parking.md
+    - CNIG_vers_NeTEx/poi.md
+    - CNIG_vers_NeTEx/stop.md
+  - NeTEx vers CNIG:
+    - NeTEx_vers_CNIG/index.md
+    - NeTEx_vers_CNIG/01_CHEMINEMENT.md
+    - NeTEx_vers_CNIG/02_TRONCON_CHEMINEMENT.md
+    - NeTEx_vers_CNIG/03_NOEUD_CHEMINEMENT.md
+    - NeTEx_vers_CNIG/04_OBSTACLE.md
+    - NeTEx_vers_CNIG/05_CIRCULATION.md
+    - NeTEx_vers_CNIG/06_TRAVERSEE.md
+    - NeTEx_vers_CNIG/07_RAMPE.md
+    - NeTEx_vers_CNIG/08_ESCALIER.md
+    - NeTEx_vers_CNIG/09_ESCALATOR.md
+    - NeTEx_vers_CNIG/10_TAPIS_ROULANT.md
+    - NeTEx_vers_CNIG/11_ASCENSEUR.md
+    - NeTEx_vers_CNIG/12_ELEVATEUR.md
+    - NeTEx_vers_CNIG/13_ENTREE.md
+    - NeTEx_vers_CNIG/14_PASSAGE_SELECTIF.md
+    - NeTEx_vers_CNIG/15_QUAI.md
+    - NeTEx_vers_CNIG/16_STATIONNEMENT_PMR.md
+    - NeTEx_vers_CNIG/17_ERP.md
+    - NeTEx_vers_CNIG/18_CHEMINEMENT_ERP.md
+  - Annexe - modélisation des ascenseurs: 'annexe_ascenseurs.md'

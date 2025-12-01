@@ -1,6 +1,6 @@
 # Cheminement
 
-Un objet CHEMINEMENT est construit pour chaque objet NeTEx NavigationPath.
+Un objet CHEMINEMENT est construit pour chaque objet NeTEx NavigationPath. On les retrouve principalement dans le fichier accessibility.xml.
 
 ## idCheminement
 

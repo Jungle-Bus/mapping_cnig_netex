@@ -18,6 +18,8 @@ Un objet NeTEx SitePathLink est construit pour chaque tronçon de cheminement (T
 
     Il faudrait théoriquement également créer un ou plusieurs objets NeTEx SitePathLink pour représenter les déplacements verticaux qu'on peut effectuer en ascenseur (ASCENSEUR) ou avec un élévateur (ELEVATEUR), mais la modélisation et les attributs CNIG ne le permettent pas (il n'est notamment pas possible d'identifier les niveaux desservis et donc le nombre de SitePathLink à créer en conséquence).
 
+	[Voir l'annexe sur la modélisation des ascenseurs pour en savoir plus](../annexe_ascenseurs.md).
+
 ### SitePathLink/Distance
 
 SitePathLink/Distance est rempli à partir de l'attribut TRONCON_CHEMINEMENT.distance.
