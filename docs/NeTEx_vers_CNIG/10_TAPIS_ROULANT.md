@@ -14,6 +14,7 @@ TAPIS_ROULANT.sens est renseigné à partir de la valeur de TravelatorEquipment/
 
 * variable si DirectionOfUse = both
 * direct si DirectionOfUse = up
+* indirect si DirectionOfUse = down
 
 À défaut, TAPIS_ROULANT.sens est renseigné à partir de la valeur de SitePathLink/AllowedUse avec les règles de gestion suivantes :
 

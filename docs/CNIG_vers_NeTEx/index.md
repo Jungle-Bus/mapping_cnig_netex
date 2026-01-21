@@ -27,7 +27,7 @@ Voici les principaux concepts mobilisés pour convertir les données du standard
 - l'ASCENSEUR et l'ELEVATEUR du modèle CNIG sont exportés sous la forme d'un *LiftEquipment* (fichier accessibility.xml)
 - l'ENTREE du modèle CNIG est exportée sous la forme d'un *EntranceEquipment* (fichier accessibility.xml), ainsi que d'un *StopPlaceEntrance* (fichier stop.xml) ou *PointOfInterestEntrance* (fichier poi.xml)
 - le PASSAGE_SELECTIF n'a pas d'équivalent dans le modèle de données Transmodel. Ses caractéristiques peuvent cependant être utilisées pour modifier les attributs du *SitePathLink* où il se trouve.
-- le QUAI du modèle CNIG est exporté sous la forme d'un *SitePathLink* (fichier accessibility.xml) et éventuellement d'un Quay (fichier stop.xml)
+- le QUAI du modèle CNIG est exporté sous la forme d'un *SitePathLink* (fichier accessibility.xml) et éventuellement d'un *Quay* (fichier stop.xml)
 - le STATIONNEMENT_PMR du modèle CNIG est exporté sous la forme d'un *ParkingBay* (fichier parking.xml)
 - l'ERP du modèle CNIG est exporté sous la forme d'un *PointOfInterest* (fichier poi.xml) et éventuellement d'un *StopPlace* (fichier stop.xml)
 - le CHEMINEMENT_ERP peut être exporté sous la forme d'un *SitePathLink*

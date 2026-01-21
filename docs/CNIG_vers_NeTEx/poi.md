@@ -150,7 +150,7 @@ PointOfInterestEntrance/Lighting est rempli avec ENTREE.eclairage avec les règl
 
 - wellLit si eclairage est supérieur ou égal à 150 lux
 - poorlyLit si eclairage est entre 100 et 150 lux
-- unlit si eclairage est strictiement inférieur à 100 lux
+- unlit si eclairage est strictement inférieur à 100 lux
 - unknown si non renseigné
 
 ### PointOfInterestEntrance/SiteRef

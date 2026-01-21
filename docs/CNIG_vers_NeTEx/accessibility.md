@@ -202,7 +202,7 @@ Sinon, TactileGuidanceAvailable est rempli avec la valeur fixe "unknown".
 
 ### SitePathLink/PublicUse
 
-SitePathLink/PublicUse a la valeur fixe "all" car tous les cheminements décrits sont réputés accessibles à tous.
+SitePathLink/PublicUse a la valeur fixe "all".
 
 ### SitePathLink/Covered
 
@@ -230,7 +230,7 @@ Si le TRONCON_CHEMINEMENT est un ASCENSEUR, SitePathLink/Lighting est rempli à 
 
 - wellLit si eclairage est supérieur ou égal à 150 lux
 - poorlyLit si eclairage est entre 100 et 150 lux
-- unlit si eclairage est strictiement inférieur à 100 lux
+- unlit si eclairage est strictement inférieur à 100 lux
 - unknown si non renseigné
 
 Sinon, l'élément SitePathLink/Lighting est absent.
@@ -618,7 +618,8 @@ TravelatorEquipment/Width est rempli avec de la valeur de l'attribut TAPIS_ROULA
 TravelatorEquipment/DirectionOfUse est à partir de la valeur de l'attribut TAPIS_ROULANT.sens avec les règles de gestion suivantes :
 
 - both si sens = variable
-- up si sens = direct / indirect
+- up si sens = direct
+- down si sens = indirect
 
 ### TravelatorEquipment/TactileActuators
 
