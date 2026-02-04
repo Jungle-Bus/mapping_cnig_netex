@@ -229,8 +229,8 @@ Si le TRONCON_CHEMINEMENT est une TRAVERSEE, SitePathLink/Lighting est rempli à
 Si le TRONCON_CHEMINEMENT est un ASCENSEUR, SitePathLink/Lighting est rempli à partir de l'attribut ASCENSEUR.eclairage de l'objet ASCENSEUR correspondant au TRONCON_CHEMINEMENT courant :
 
 - wellLit si eclairage est supérieur ou égal à 150 lux
-- poorlyLit si eclairage est entre 100 et 150 lux
-- unlit si eclairage est strictement inférieur à 100 lux
+- poorlyLit si eclairage est inférieur à 150 lux
+- unlit si eclairage vaut 0 lux
 - unknown si non renseigné
 
 Sinon, l'élément SitePathLink/Lighting est absent.
