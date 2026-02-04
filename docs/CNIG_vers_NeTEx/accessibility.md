@@ -324,9 +324,11 @@ SitePathLink/TiltAngle est rempli à partir de l'attribut TRONCON_CHEMINEMENT.de
 
 ### SitePathLink/TiltType
 
-Si TRONCON_CHEMINEMENT.devers est strictement inférieur à 2%, SitePathLink/TiltType est rempli avec la valeur fixe "nearlyFlat".
+SitePathLink/TiltType peut être approximé à partir de l'attribut TRONCON_CHEMINEMENT.devers, avec les règles de gestion suivantes :
 
-Sinon, SitePathLink/TiltType n'est pas renseigné.
+- strongLeftTilt si devers est supérieur ou égal à 5%
+- mediumLeftTilt si devers est entre 2 et 4%
+- nearlyFlat si devers est strictement inférieur à 2%
 
 ### SitePathLink/AccessFeatureType
 

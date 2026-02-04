@@ -17,7 +17,7 @@ ESCALIER.etatRevetement ne peut être renseigné.
 ESCALIER.mainCourante est renseigné à partir de StaircaseEquipment/HandrailType de l'équipement référencé dans SitePathLink/placeEquipments avec les règles de gestion suivantes :
 
 * aucun si HandrailType = none
-* à droite si HandrailType = oneSide
+* à gauche si HandrailType = oneSide (Remarque : il s'agit d'une approximation)
 * des deux côtés si HandrailType = bothSides
 
 ## dispositifVigilance
@@ -45,7 +45,7 @@ ESCALIER.largeurUtile est renseigné avec la valeur de StaircaseEquipment/Width 
 ESCALIER.mainCouranteContinue est renseigné à partir de StaircaseEquipment/ContinuousHandrail de l'équipement référencé dans SitePathLink/placeEquipments avec les règles de gestion suivantes :
 
 * aucun si ContinuousHandrail = none
-* à droite si ContinuousHandrail = oneSide
+* à gauche si ContinuousHandrail = oneSide (Remarque : il s'agit d'une approximation)
 * des deux côtés si ContinuousHandrail = bothSides
 
 ## prolongMainCourante
@@ -53,7 +53,7 @@ ESCALIER.mainCouranteContinue est renseigné à partir de StaircaseEquipment/Con
 ESCALIER.prolongMainCourante est renseigné à partir de StaircaseEquipment/TopEnd/ContinuingHandrail et de StaircaseEquipment/BottomEnd/ContinuingHandrail de l'équipement référencé dans SitePathLink/placeEquipments avec les règles de gestion suivantes :
 
 * aucun si TopEnd/ContinuingHandrail = none et BottomEnd/ContinuingHandrail = none
-* à droite si TopEnd/ContinuingHandrail = oneSide et BottomEnd/ContinuingHandrail = oneSide
+* à gauche si TopEnd/ContinuingHandrail = oneSide et BottomEnd/ContinuingHandrail = oneSide (Remarque : il s'agit d'une approximation)
 * des deux côtés si TopEnd/ContinuingHandrail = bothSides et BottomEnd/ContinuingHandrail = bothSides
 
 ## nbMarches

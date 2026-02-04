@@ -78,7 +78,7 @@ ASCENSEUR.typeOuverture est renseigné à partir de la valeur de LiftEquipment/A
 ASCENSEUR.mainCourante est renseigné à partir de la valeur de LiftEquipment/HandrailType avec les règles de gestion suivantes :
 
 * aucun si HandrailType = none
-* à droite si HandrailType = oneSide
+* à gauche si HandrailType = oneSide (Remarque : il s'agit d'une approximation)
 * des deux côtés si HandrailType = bothSides
 
 ## hauteurMainCourante

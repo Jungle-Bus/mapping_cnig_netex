@@ -32,8 +32,8 @@ theme:
 
 nav:
   - Accueil: 'index.md'
-  - Suivi des modification: 'changelog.md'
-  - Conventions de représentations: 'conventions.md'
+  - Suivi des modifications: 'changelog.md'
+  - Conventions de représentation: 'conventions.md'
   - CNIG vers NeTEx:
     - CNIG_vers_NeTEx/index.md
     - CNIG_vers_NeTEx/accessibility.md

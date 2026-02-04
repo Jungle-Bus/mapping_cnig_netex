@@ -23,7 +23,7 @@ RAMPE.largeurUtile est renseigné avec la valeur de RampEquipment/Width de l'éq
 RAMPE.mainCourante est renseigné à partir de RampEquipment/HandrailType de l'équipement référencé dans SitePathLink/placeEquipments avec les règles de gestion suivantes :
 
 * aucun si HandrailType = none
-* à droite si HandrailType = oneSide
+* à gauche si HandrailType = oneSide (Remarque : il s'agit d'une approximation)
 * des deux côtés si HandrailType = bothSides
 
 ## distPalierRepos
@@ -35,7 +35,7 @@ RAMPE.distPalierRepos est rempli avec la valeur de RampEquipment/RestStopDistanc
 RAMPE.chasseRoue est rempli à partir de RampEquipment/SafetyEdge de l'équipement référencé dans SitePathLink/placeEquipments avec les règles de gestion suivantes :
 
 * aucun si SafetyEdge = none
-* à droite si SafetyEdge = oneSide
+* à gauche si SafetyEdge = oneSide (Remarque : il s'agit d'une approximation)
 * des deux côtés si SafetyEdge = bothSides
 
 ## aireRotation
