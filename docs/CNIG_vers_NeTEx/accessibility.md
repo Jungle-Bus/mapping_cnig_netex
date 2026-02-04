@@ -558,7 +558,7 @@ RampEquipment/Temporary est rempli avec la valeur fixe "false" car seules les ra
 
 RampEquipment/RestStopDistance est rempli avec la valeur de l'attribut RAMPE.distPalierRepos.
 
-Cas particulier : si RAMPE.distPalierRepos vaut 9999 RampEquipment/RestStopDistance n'est pas renseigné.
+Cas particulier : si RAMPE.distPalierRepos vaut 9999, on utilisera la valeur 10 à la place pour renseigner RampEquipment/RestStopDistance.
 
 ### RampEquipment/SafetyEdge
 
@@ -653,7 +653,7 @@ Dans le cas d'un LiftEquipment créé à partir d'un ascenseur, LiftEquipment/Ma
 
 LiftEquipment/WheelchairTurningCircle est rempli avec de la valeur de l'attribut ASCENSEUR.diamManoeuvreFauteuil.
 
-Cas particulier : si ASCENSEUR.diamManoeuvreFauteuil a pour valeur 9999 LiftEquipment/WheelchairTurningCircle n'est pas renseigné.
+Cas particulier : si ASCENSEUR.diamManoeuvreFauteuil a pour valeur 9999, on utilisera la valeur 1.50 à la place pour renseigner LiftEquipment/WheelchairTurningCircle.
 
 Dans le cas d'un LiftEquipment créé à partir d'un élévateur, LiftEquipment/WheelchairTurningCircle n'est pas renseigné.
 
@@ -661,7 +661,7 @@ Dans le cas d'un LiftEquipment créé à partir d'un élévateur, LiftEquipment/
 
 LiftEquipment/InternalWidth est rempli avec de la valeur de l'attribut ASCENSEUR.largeurCabine ou ELEVATEUR.largeurPlateforme.
 
-Cas particulier : si les attributs CNIG ont pour valeur 9999 LiftEquipment/InternalWidth n'est pas renseigné.
+Cas particulier : si les attributs CNIG ont pour valeur 9999, on utilisera la valeur 1.50 à la place pour renseigner LiftEquipment/InternalWidth.
 
 ### LiftEquipment/HandrailType
 
@@ -677,7 +677,7 @@ Dans le cas d'un LiftEquipment créé à partir d'un élévateur, LiftEquipment/
 
 LiftEquipment/HandrailHeight est rempli avec de la valeur de l'attribut ASCENSEUR.hauteurMainCourante.
 
-Cas particulier : si ASCENSEUR.hauteurMainCourante a pour valeur 9999 LiftEquipment/HandrailHeight n'est pas renseigné.
+Cas particulier : si ASCENSEUR.hauteurMainCourante a pour valeur 9999, on utilisera la valeur 0.80 à la place pour renseigner LiftEquipment/HandrailHeight.
 
 Dans le cas d'un LiftEquipment créé à partir d'un élévateur, LiftEquipment/HandrailHeight n'est pas renseigné.
 
@@ -777,13 +777,13 @@ Dans le cas d'un StaircaseEquipment créé à partir d'un obstacle, StaircaseEqu
 
 StaircaseEquipment/StepHeight est rempli avec de la valeur de l'attribut ESCALIER.hauteurMarche ou OBSTACLE.hauteurObsPoseSol.
 
-Cas particulier : si les attributs CNIG ont pour valeur 9999 StaircaseEquipment/StepHeight n'est pas renseigné.
+Cas particulier : si les attributs CNIG ont pour valeur 9999, on utilisera la valeur 0.15 à la place pour renseigner StaircaseEquipment/StepHeight.
 
 ### StaircaseEquipment/StepLength
 
 StaircaseEquipment/StepLength est rempli avec de la valeur de l'attribut ESCALIER.giron ou OBSTACLE.longueurObstacle.
 
-Cas particulier : si les attributs CNIG ont pour valeur 9999 StaircaseEquipment/StepLength n'est pas renseigné.
+Cas particulier : si les attributs CNIG ont pour valeur 9999 on utilisera la valeur 0.28 à la place pour renseigner StaircaseEquipment/StepLength.
 
 ### StaircaseEquipment/StepColourContrast
 

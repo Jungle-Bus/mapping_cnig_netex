@@ -81,10 +81,10 @@ ParkingBay/ParkingVisibility est rempli avec les règles de gestion suivantes :
 
 ParkingBay/Length est rempli avec la valeur de l'attribut STATIONNEMENT_PMR.longueurStat.
 
-Cas particulier : si STATIONNEMENT_PMR.longueurStat vaut 9999 ParkingBay/Length n'est pas renseigné.
+Cas particulier : si STATIONNEMENT_PMR.longueurStat vaut 9999, on utilisera la valeur 8 à la place pour renseigner ParkingBay/Length.
 
 ### ParkingBay/Width
 
 ParkingBay/Width est rempli avec la valeur de l'attribut STATIONNEMENT_PMR.largeurStat.
 
-Cas particulier : si STATIONNEMENT_PMR.largeurStat vaut 9999 ParkingBay/Width n'est pas renseigné.
+Cas particulier : si STATIONNEMENT_PMR.largeurStat vaut 9999, on utilisera la valeur 3.30 à la place pour renseigner ParkingBay/Width.
