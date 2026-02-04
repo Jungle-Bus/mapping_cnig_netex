@@ -304,6 +304,8 @@ Sinon, SitePathLink/Transition est absent.
 
 SitePathLink/Gradient est rempli à partir de l'attribut TRONCON_CHEMINEMENT.pente, après conversion des pourcentages en degrés. La formule suivante peut être utilisée : `ceil(round(360 / (2 * PI) * 100 * arctan(pente / 100)) / 100)`.
 
+Cas particulier : si TRONCON_CHEMINEMENT.pente a pour valeur 8888 SitePathLink/Gradient n'est pas renseigné.
+
 ### SitePathLink/GradientType
 
 SitePathLink/GradientType est rempli à partir de l'attribut TRONCON_CHEMINEMENT.pente, avec les règles de gestion suivantes :
@@ -313,6 +315,8 @@ SitePathLink/GradientType est rempli à partir de l'attribut TRONCON_CHEMINEMENT
 - medium si pente = 5%
 - gentle si pente entre 1 et 4%
 - level si pente = 0%
+
+Cas particulier : si TRONCON_CHEMINEMENT.pente a pour valeur 8888 SitePathLink/GradientType n'est pas renseigné.
 
 ### SitePathLink/TiltAngle
 

@@ -82,6 +82,8 @@ Si SitePathLink/Gradient est absent mais que SitePathLink/GradientType est rense
 - 3 si GradientType = gentle
 - 0 si GradientType = level
 
+Si SitePathLink/Gradient est absent mais que SitePathLink/AccessFeatureType = stairs / seriesOfStairs, l'attribut TRONCON_CHEMINEMENT.pente est renseigné avec la valeur fixe 8888.
+
 ## devers
 
 TRONCON_CHEMINEMENT.devers est rempli à partir de l'attribut SitePathLink/TiltAngle après conversion des degrés en pourcentages.
