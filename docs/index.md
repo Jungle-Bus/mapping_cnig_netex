@@ -1,9 +1,5 @@
 # Aide à la conversion entre CNIG et NeTEx
 
-!!! warning "Attention"
-
-    Cette documentation est un brouillon temporaire non officiel. En attendant sa finalisation, voici [la dernière version publiée](https://github.com/Jungle-Bus/mapping_cnig_netex/releases/download/v1.0/Wegoto_DGMINT_ReglesConversions_CNIG-NeTEx_1.0.pdf).
-
 L'objectif de cette documentation est de fournir des règles de conversion entre les données au format du standard CNIG Accessibilité et les données au format NeTEx profil France (principalement la partie Accessibilité du profil).
 
 Le [standard CNIG Accessibilité du cheminement en voirie](https://cnig.gouv.fr/ressources-accessibilite-a25335.html) est un modèle de donnée qui définit les objets et les attributs que les collectivités territoriales doivent publier afin de faciliter les déplacements des personnes à mobilité réduite. Il a été élaboré par le groupe de travail sur l'accessibilité du CNIG. Le Conseil national de l'information géographique (CNIG) est une instance consultative qui coordonne et accompagne l'évolution de l'information géolocalisée en France.

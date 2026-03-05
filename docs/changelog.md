@@ -1,10 +1,10 @@
 # Suivi des modifications
 
-Cette documentation est un brouillon temporaire non officiel.
+La version actuelle de cette documentation a été publiée en mars 2026.
 
-La version actuelle de cette documentation est basée sur :
+Elle est basée sur :
 
-* le [profil NeTEx France](https://normes.transport.data.gouv.fr/normes/netex/), future version 2.4
+* le [profil NeTEx France](https://normes.transport.data.gouv.fr/normes/netex/), version 2.4 publié en mars 2026
 * le [standard CNIG Accessibilité](https://cnig.gouv.fr/IMG/pdf/250314_standard_cnig_accessibilite_v2021-10_rev2025-03-2.pdf) en version v2021-10 (rev. 2025-03)
 
 
